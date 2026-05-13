@@ -212,6 +212,7 @@ export interface Page {
     | CaseStudyShowcaseBlock
     | OfficeLocationsBlock
     | EnquiryFormBlock
+    | TeamGridBlock
     | CallToActionBlock
     | ContentBlock
     | MediaBlock
@@ -698,6 +699,28 @@ export interface EnquiryFormBlock {
   id?: string | null;
   blockName?: string | null;
   blockType: 'enquiryForm';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "TeamGridBlock".
+ */
+export interface TeamGridBlock {
+  eyebrow?: string | null;
+  heading?: string | null;
+  subheading?: string | null;
+  members?:
+    | {
+        name: string;
+        role: string;
+        email?: string | null;
+        phone?: string | null;
+        inMemoriam?: boolean | null;
+        id?: string | null;
+      }[]
+    | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'teamGrid';
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -1389,6 +1412,7 @@ export interface PagesSelect<T extends boolean = true> {
         caseStudyShowcase?: T | CaseStudyShowcaseBlockSelect<T>;
         officeLocations?: T | OfficeLocationsBlockSelect<T>;
         enquiryForm?: T | EnquiryFormBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
         cta?: T | CallToActionBlockSelect<T>;
         content?: T | ContentBlockSelect<T>;
         mediaBlock?: T | MediaBlockSelect<T>;
@@ -1521,6 +1545,27 @@ export interface EnquiryFormBlockSelect<T extends boolean = true> {
   heading?: T;
   subheading?: T;
   background?: T;
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "TeamGridBlock_select".
+ */
+export interface TeamGridBlockSelect<T extends boolean = true> {
+  eyebrow?: T;
+  heading?: T;
+  subheading?: T;
+  members?:
+    | T
+    | {
+        name?: T;
+        role?: T;
+        email?: T;
+        phone?: T;
+        inMemoriam?: T;
+        id?: T;
+      };
   id?: T;
   blockName?: T;
 }

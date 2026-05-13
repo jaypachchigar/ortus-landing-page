@@ -14,6 +14,7 @@ import { FAQAccordionBlock } from '@/blocks/FAQAccordion/Component'
 import { CaseStudyShowcaseBlock } from '@/blocks/CaseStudyShowcase/Component'
 import { OfficeLocationsBlock } from '@/blocks/OfficeLocations/Component'
 import { EnquiryFormBlockComponent } from '@/blocks/EnquiryForm/Component'
+import { TeamGridBlock } from '@/blocks/TeamGrid/Component'
 
 const blockComponents = {
   archive: ArchiveBlock,
@@ -28,6 +29,7 @@ const blockComponents = {
   caseStudyShowcase: CaseStudyShowcaseBlock,
   officeLocations: OfficeLocationsBlock,
   enquiryForm: EnquiryFormBlockComponent,
+  teamGrid: TeamGridBlock,
 }
 
 export const RenderBlocks: React.FC<{
