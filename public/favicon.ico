@@ -1,0 +1,2197 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8" />
+<script type="text/javascript">
+/* <![CDATA[ */
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+/* ]]> */
+</script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://ortussecuredfinance.co.uk/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><meta name='robots' content='noindex, follow' />
+<script type="text/javascript">
+			let jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script>
+	<!-- This site is optimized with the Yoast SEO plugin v22.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - Ortus Secured Finance</title>
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:title" content="Page not found - Ortus Secured Finance" />
+	<meta property="og:site_name" content="Ortus Secured Finance" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://ortussecuredfinance.co.uk/#website","url":"https://ortussecuredfinance.co.uk/","name":"Ortus Secured Finance","description":"We listen, then find a way","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://ortussecuredfinance.co.uk/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-GB"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="Ortus Secured Finance &raquo; Feed" href="https://ortussecuredfinance.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ortus Secured Finance &raquo; Comments Feed" href="https://ortussecuredfinance.co.uk/comments/feed/" />
+<meta content="Divi v.4.27.6" name="generator"/><style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='wp-block-heading-inline-css' type='text/css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://ortussecuredfinance.co.uk/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id='wp-block-latest-comments-inline-css' type='text/css'>
+ol.wp-block-latest-comments{box-sizing:border-box;margin-left:0}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment)){line-height:1.1}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment-excerpt p)){line-height:1.8}.has-dates :where(.wp-block-latest-comments:not([style*=line-height])),.has-excerpts :where(.wp-block-latest-comments:not([style*=line-height])){line-height:1.5}.wp-block-latest-comments .wp-block-latest-comments{padding-left:0}.wp-block-latest-comments__comment{list-style:none;margin-bottom:1em}.has-avatars .wp-block-latest-comments__comment{list-style:none;min-height:2.25em}.has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt,.has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta{margin-left:3.25em}.wp-block-latest-comments__comment-excerpt p{font-size:.875em;margin:.36em 0 1.4em}.wp-block-latest-comments__comment-date{display:block;font-size:.75em}.wp-block-latest-comments .avatar,.wp-block-latest-comments__comment-avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-right:.75em;width:2.5em}.wp-block-latest-comments[class*=-font-size] a,.wp-block-latest-comments[style*=font-size] a{font-size:inherit}
+/*# sourceURL=https://ortussecuredfinance.co.uk/wp-includes/blocks/latest-comments/style.min.css */
+</style>
+<style id='wp-block-latest-posts-inline-css' type='text/css'>
+.wp-block-latest-posts{box-sizing:border-box}.wp-block-latest-posts.alignleft{margin-right:2em}.wp-block-latest-posts.alignright{margin-left:2em}.wp-block-latest-posts.wp-block-latest-posts__list{list-style:none}.wp-block-latest-posts.wp-block-latest-posts__list li{clear:both;overflow-wrap:break-word}.wp-block-latest-posts.is-grid{display:flex;flex-wrap:wrap}.wp-block-latest-posts.is-grid li{margin:0 1.25em 1.25em 0;width:100%}@media (min-width:600px){.wp-block-latest-posts.columns-2 li{width:calc(50% - .625em)}.wp-block-latest-posts.columns-2 li:nth-child(2n){margin-right:0}.wp-block-latest-posts.columns-3 li{width:calc(33.33333% - .83333em)}.wp-block-latest-posts.columns-3 li:nth-child(3n){margin-right:0}.wp-block-latest-posts.columns-4 li{width:calc(25% - .9375em)}.wp-block-latest-posts.columns-4 li:nth-child(4n){margin-right:0}.wp-block-latest-posts.columns-5 li{width:calc(20% - 1em)}.wp-block-latest-posts.columns-5 li:nth-child(5n){margin-right:0}.wp-block-latest-posts.columns-6 li{width:calc(16.66667% - 1.04167em)}.wp-block-latest-posts.columns-6 li:nth-child(6n){margin-right:0}}:root :where(.wp-block-latest-posts.is-grid){padding:0}:root :where(.wp-block-latest-posts.wp-block-latest-posts__list){padding-left:0}.wp-block-latest-posts__post-author,.wp-block-latest-posts__post-date{display:block;font-size:.8125em}.wp-block-latest-posts__post-excerpt,.wp-block-latest-posts__post-full-content{margin-bottom:1em;margin-top:.5em}.wp-block-latest-posts__featured-image a{display:inline-block}.wp-block-latest-posts__featured-image img{height:auto;max-width:100%;width:auto}.wp-block-latest-posts__featured-image.alignleft{float:left;margin-right:1em}.wp-block-latest-posts__featured-image.alignright{float:right;margin-left:1em}.wp-block-latest-posts__featured-image.aligncenter{margin-bottom:1em;text-align:center}
+/*# sourceURL=https://ortussecuredfinance.co.uk/wp-includes/blocks/latest-posts/style.min.css */
+</style>
+<style id='wp-block-search-inline-css' type='text/css'>
+.wp-block-search__button{margin-left:10px;word-break:normal}.wp-block-search__button.has-icon{line-height:0}.wp-block-search__button svg{height:1.25em;min-height:24px;min-width:24px;width:1.25em;fill:currentColor;vertical-align:text-bottom}:where(.wp-block-search__button){border:1px solid #ccc;padding:6px 10px}.wp-block-search__inside-wrapper{display:flex;flex:auto;flex-wrap:nowrap;max-width:100%}.wp-block-search__label{width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__button{box-sizing:border-box;display:flex;flex-shrink:0;justify-content:center;margin-left:0;max-width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100%;transition-duration:.3s}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden,.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__inside-wrapper{overflow:hidden}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__input{border-left-width:0!important;border-right-width:0!important;flex-basis:0;flex-grow:0;margin:0;min-width:0!important;padding-left:0!important;padding-right:0!important;width:0!important}:where(.wp-block-search__input){appearance:none;border:1px solid #949494;flex-grow:1;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;margin-left:0;margin-right:0;min-width:3rem;padding:8px;text-decoration:unset!important;text-transform:inherit}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){background-color:#fff;border:1px solid #949494;box-sizing:border-box;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:none}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:4px 8px}.wp-block-search.aligncenter .wp-block-search__inside-wrapper{margin:auto}.wp-block[data-align=right] .wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{float:right}
+/*# sourceURL=https://ortussecuredfinance.co.uk/wp-includes/blocks/search/style.min.css */
+</style>
+<style id='wp-block-search-theme-inline-css' type='text/css'>
+.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}
+/*# sourceURL=https://ortussecuredfinance.co.uk/wp-includes/blocks/search/theme.min.css */
+</style>
+<style id='wp-block-group-inline-css' type='text/css'>
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://ortussecuredfinance.co.uk/wp-includes/blocks/group/style.min.css */
+</style>
+<style id='wp-block-group-theme-inline-css' type='text/css'>
+:where(.wp-block-group.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://ortussecuredfinance.co.uk/wp-includes/blocks/group/theme.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='cookie-law-info-css' href='https://ortussecuredfinance.co.uk/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css?ver=3.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://ortussecuredfinance.co.uk/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css?ver=3.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css' href='https://ortussecuredfinance.co.uk/wp-content/themes/Divi/style.min.css?ver=4.27.6' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-dynamic-late-css' href='https://ortussecuredfinance.co.uk/wp-content/et-cache/notfound/et-divi-dynamic-tb-25115-tb-27002-late.css?ver=1778069746' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-dynamic-css' href='https://ortussecuredfinance.co.uk/wp-content/et-cache/notfound/et-divi-dynamic-tb-25115-tb-27002.css?ver=1778069746' type='text/css' media='all' />
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="jquery-js-after">
+/* <![CDATA[ */
+jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+//# sourceURL=jquery-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="cookie-law-info-js-extra">
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"1","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#1a202a","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#00799e","button_1_button_hover":"#00617e","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#dedfe0","button_3_button_hover":"#b2b2b3","button_3_link_colour":"#333333","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#dedfe0","button_4_button_hover":"#b2b2b3","button_4_link_colour":"#333333","button_4_as_button":"1","button_7_button_colour":"#00799e","button_7_button_hover":"#00617e","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#ffffff","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https://ortussecuredfinance.co.uk/wp-admin/admin-ajax.php"};
+//# sourceURL=cookie-law-info-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js?ver=3.2.0" id="cookie-law-info-js"></script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-content/plugins/popups-for-divi/scripts/ie-compat.min.js?ver=3.0.5" id="dap-ie-js"></script>
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-KW3R8EHCY5" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["ortussecuredfinance.co.uk"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-KW3R8EHCY5");
+//# sourceURL=google_gtagjs-js-after
+/* ]]> */
+</script>
+
+<!-- End Google Analytics snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://ortussecuredfinance.co.uk/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ortussecuredfinance.co.uk/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<meta name="generator" content="Site Kit by Google 1.122.0" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><script type="text/javascript">
+var elm=document.getElementsByTagName("html")[0];
+elm.style.display="none";
+document.addEventListener("DOMContentLoaded",function(event) {elm.style.display="block"; });
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T7WKZKR');</script>
+<!-- End Google Tag Manager --><link rel="icon" href="https://ortussecuredfinance.co.uk/wp-content/uploads/2021/08/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://ortussecuredfinance.co.uk/wp-content/uploads/2021/08/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://ortussecuredfinance.co.uk/wp-content/uploads/2021/08/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://ortussecuredfinance.co.uk/wp-content/uploads/2021/08/cropped-favicon-270x270.png" />
+<link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://ortussecuredfinance.co.uk/wp-content/et-cache/global/et-divi-customizer-global.min.css?ver=1772215331" /><link rel="stylesheet" id="et-core-unified-cpt-25115-cached-inline-styles" href="https://ortussecuredfinance.co.uk/wp-content/et-cache/25115/et-core-unified-cpt-25115.min.css?ver=1772215332" /><link rel="stylesheet" id="et-core-unified-cpt-deferred-25115-cached-inline-styles" href="https://ortussecuredfinance.co.uk/wp-content/et-cache/25115/et-core-unified-cpt-deferred-25115.min.css?ver=1772215332" /><style id="et-critical-inline-css">div.et_pb_section.et_pb_section_0_tb_footer{background-position:right 0px top;background-image:url(https://ortussecuredfinance.co.uk/wp-content/uploads/2021/08/arrowBackground_10op-01_right.png)!important}.et_pb_section_0_tb_footer.et_pb_section{background-color:#1A202A!important}.et_pb_text_0_tb_footer h1,.et_pb_text_1_tb_footer.et_pb_text{color:#1A202A!important}.et_pb_text_0_tb_footer h2{font-family:'Noto Sans',Helvetica,Arial,Lucida,sans-serif;font-weight:700;text-transform:uppercase;font-size:40px;color:#1A202A!important}.et_pb_divider_0_tb_footer{border-top-width:1px;border-top-color:#009ECF;padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:0px!important;max-width:300px}.et_pb_divider_0_tb_footer:before{border-top-color:#009ECF;width:auto;top:0px;right:0px;left:0px}.et_pb_contact_form_0_tb_footer.et_pb_contact_form_container .input,.et_pb_contact_form_0_tb_footer.et_pb_contact_form_container .input::placeholder,.et_pb_contact_form_0_tb_footer.et_pb_contact_form_container .input[type=checkbox]+label,.et_pb_contact_form_0_tb_footer.et_pb_contact_form_container .input[type=radio]+label{font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;font-size:14px}.et_pb_contact_form_0_tb_footer.et_pb_contact_form_container .input::-webkit-input-placeholder{font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;font-size:14px}.et_pb_contact_form_0_tb_footer.et_pb_contact_form_container .input::-moz-placeholder{font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;font-size:14px}.et_pb_contact_form_0_tb_footer.et_pb_contact_form_container .input:-ms-input-placeholder{font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;font-size:14px}.et_pb_contact_form_0_tb_footer.et_pb_contact_form_container{padding-bottom:93px}.et_pb_divider_0_tb_footer.et_pb_module,.et_pb_contact_form_0_tb_footer.et_pb_contact_form_container.et_pb_module{margin-left:auto!important;margin-right:auto!important}@media only screen and (min-width:981px){.et_pb_contact_form_0_tb_footer{width:80%}}@media only screen and (max-width:980px){.et_pb_text_0_tb_footer h2{font-size:42px}.et_pb_divider_0_tb_footer{border-top-width:1px;border-top-color:#009ECF}.et_pb_contact_form_0_tb_footer{width:100%}}@media only screen and (max-width:767px){.et_pb_text_0_tb_footer h2{font-size:30px}.et_pb_divider_0_tb_footer{border-top-width:1px;border-top-color:#009ECF}}</style>
+<link rel="preload" as="style" id="et-core-unified-cpt-deferred-27002-cached-inline-styles" href="https://ortussecuredfinance.co.uk/wp-content/et-cache/27002/et-core-unified-cpt-deferred-27002.min.css?ver=1772215332" onload="this.onload=null;this.rel='stylesheet';" /><link rel='stylesheet' id='gform_basic-css' href='https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.10.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.10.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.10.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-table-css' href='https://ortussecuredfinance.co.uk/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css?ver=3.2.0' type='text/css' media='all' />
+
+</head>
+<body class="error404 wp-theme-Divi et-tb-has-template et-tb-has-header et-tb-has-footer et_button_custom_icon et_pb_button_helper_class et_cover_background et_pb_gutter et_pb_gutters3 et_right_sidebar et_divi_theme et-db">
+	<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+		<header class="et-l et-l--header">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0_tb_header et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_header">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_code et_pb_code_0_tb_header">
+				
+				
+				
+				
+				<div class="et_pb_code_inner"><style>
+.et_pb_menu_1_tb_header.et_pb_menu .et_mobile_menu, .et_pb_menu_1_tb_header.et_pb_menu .et_mobile_menu ul {
+    background-color: #1a202a !important;
+}
+  .et_pb_menu_1_tb_header.et_pb_menu .et_mobile_menu a {
+    color: white !important;
+}
+  .et_pb_image_0_tb_header .et_pb_image_wrap img {
+    padding-bottom: 13px !important;
+}
+  .et_pb_menu--without-logo .et_pb_menu__menu>nav>ul>li>a {
+    padding-bottom: 40px !important;
+}
+  .et_pb_menu--without-logo .et_pb_menu__menu>nav>ul {
+    margin-top: 20px !important;
+}
+  .et-menu li li.menu-item-has-children>a:first-child:after {
+    top: 6px;
+}
+    #dd-section {
+        display: none;
+        position: fixed;
+        top: 0;
+        overflow: auto;
+        z-index: 9999;
+    }
+
+    #dd-section.dd-m-menu {
+        display: block;
+    }
+
+  
+  
+    #dd-menu-mobile .mobile_menu_bar {
+        display: none;
+    }
+
+    #dd-menu-mobile .et_mobile_menu {
+        display: block !important;
+        border-top: none;
+        box-shadow: none;
+        position: relative;
+    }
+
+    #dd-menu-mobile .et_mobile_nav_menu,
+    #dd-menu-mobile .mobile_nav {
+        width: 100%;
+    }
+
+    #dd-menu-mobile ul li a {
+        text-align: center; /* Alignment of menu items */
+        font-weight: 500 !important; /* Font-weight of menu items */
+        border-bottom: none; /* Bottom border of menu items */
+        cursor: default;
+    }
+
+    #dd-menu-mobile ul li a:hover {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    #dd-menu-mobile ul li.menu-item-has-children>a {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    #dd-menu-mobile.dd-submenu ul li a {
+        text-align: left; /* Alignment of menu items in case sub-items exist */
+    }
+
+    #dd-menu-mobile .mobile_nav li ul.hide {
+        display: none !important;
+    }
+
+    #dd-menu-mobile .mobile_nav .menu-item-has-children {
+        position: relative;
+    }
+
+
+    #dd-menu-mobile .mobile_nav .menu-item-has-children>a+span {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 700; /* Font-weight of submenu parent menu item icons */
+        cursor: default;
+        z-index: 3;
+    }
+
+    #dd-menu-mobile span.menu-closed:before {
+        content: "L";
+        display: block;
+        color: #fff; /* Color of submenu parent menu item icons */
+        font-size: 16px;
+        font-family: ETmodules;
+    }
+
+    #dd-menu-mobile span.menu-closed.menu-open:before {
+        content: "K";
+    }
+
+    .dd-flex-column {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .et_pb_section.et_pb_section_0_tb_header,
+    .et_pb_row.et_pb_row_1_tb_header,
+    .et_pb_column.et_pb_column_4_4.et_pb_column_1_tb_header.dd-flex-column {
+        height: 55px;
+    }
+  
+    header.et-l--header {
+        position: absolute;
+        width: 100%;
+    }
+  
+    header.et-l--header.dd-cfixed-header {
+        position: fixed;
+        top: -55px;
+        width: 100%;
+        z-index: 999999;
+    }
+  
+    body.admin-bar header.et-l--header.dd-cfixed-header {
+        z-index: 999;
+    }
+  
+    .dd-fixed-header {
+        -webkit-transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+        transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+        transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out;
+        transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    }
+
+    .et_pb_section_1_tb_header.et_pb_section.dd-fixed-header-styling {
+        background-color:#1a202a !important; /* Background-color After Scroll */
+        box-shadow: 0px 8px 18px -6px rgba(0, 0, 0, 0.2); /* Box-shadow of fixed header */
+    }
+
+    .dd-fixed-header-styling .et_pb_menu_0_tb_header.et_pb_menu ul li a {
+        color: #fff !important; /* Menu Text Color After Scroll */
+    }
+  
+    .dd-fixed-header-styling .et_pb_menu_0_tb_header.et_pb_menu ul li.current-menu-item a {
+        color:#00799e !important; /* Active Menu Link Color After Scroll */
+    }
+  
+    .dd-fixed-header-styling .et_pb_menu_0_tb_header.et_pb_menu .nav li ul.sub-menu a {
+        color: #fff !important; /* Dropdown-Menu Link Color After Scroll */
+    }
+  
+    .dd-fixed-header-styling #dd-hamburger .et-pb-icon {
+        color: #fff !important; /* Hamburger Icon Color After Scroll */
+    }
+  
+    .dd-sB .et_pb_blurb_container {
+        padding-left: 0px;
+    }
+  
+    .dd-social-follow li {
+        margin-bottom: 0;
+    }
+
+    .dd-search input.et_pb_searchsubmit {
+        background: transparent !important;
+        border: none !important;
+        padding: 0 20px;
+        z-index: 99;
+    }
+
+    .dd-search-icon {
+        position: absolute;
+        height: 100%;
+        right: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+        padding: .715em 17px;
+        background-color: #263547; /* background-color of Search Icon */
+        border-left: 1px solid rgba(0,0,0,0); /* Left Border of Search Icon */
+    }
+
+    .dd-search-icon:after {
+        content: "U";
+        font-family: "ETmodules" !important;
+        display: block;
+        font-size: 17px; /* Font-size of Search Icon */
+        font-weight: bold;
+        color: #fff; /* Color of Search Icon */
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+  
+    .admin-bar header.et-l--header.dd-cfixed-header {
+        top: -23px;
+    }
+  
+</style>
+
+<script>
+    jQuery(document).ready(function() {
+        
+        // For Making The Header Fixed + Custom Styling + Padding-top
+        jQuery(window).scroll(function() {
+            var scroll = jQuery(window).scrollTop();
+
+            if (scroll >= 55) {
+                jQuery("header.et-l--header").addClass("dd-cfixed-header");
+                jQuery(".dd-fixed-header").addClass("dd-fixed-header-styling");
+
+
+            } else {
+                jQuery("header.et-l--header").removeClass("dd-cfixed-header");
+                jQuery(".dd-fixed-header").removeClass("dd-fixed-header-styling");
+            }
+        });
+        
+        // For Mobile Menu
+        jQuery("#dd-hamburger").click(function() {
+            jQuery("#dd-section").toggleClass("dd-m-menu");
+        });
+        jQuery("#dd-close").click(function() {
+            jQuery("#dd-section").toggleClass("dd-m-menu");
+        });
+      
+      // For Padding-top
+        var ptop = 0;
+        jQuery(".et-l--header .et_builder_inner_content .dd-fixed-header").each(function () {
+            ptop = ptop + jQuery(this).outerHeight();
+        });
+        ptop = ptop + "px";
+        jQuery("#main-content").css("padding-top", ptop);
+
+        // For Search Icon
+        jQuery(".dd-search .et_pb_searchsubmit").attr("value", "");
+        jQuery(".dd-search > form > div").append('<span class="dd-search-icon"></span>');        
+        
+        // For Mobile Menu Subitems
+        if (jQuery("#dd-menu-mobile ul").hasClass("sub-menu")) {
+            jQuery("#dd-menu-mobile").addClass("dd-submenu");
+        }
+    });
+    
+    (function($) {
+        function setup_collapsible_submenus() {
+            // mobile menu
+            $('#dd-menu-mobile .mobile_nav .menu-item-has-children > a').after('<span class="menu-closed"></span>');
+            $('#dd-menu-mobile .mobile_nav .menu-item-has-children > a').each(function() {
+                $(this).next().next('.sub-menu').toggleClass('hide', 1000);
+            });
+            $('#dd-menu-mobile .mobile_nav .menu-item-has-children > a + span').on('click', function(event) {
+                event.preventDefault();
+                $(this).toggleClass('menu-open');
+                $(this).next('.sub-menu').toggleClass('hide', 1000);
+            });
+        }
+        $(window).load(function() {
+            setTimeout(function() {
+                setup_collapsible_submenus();
+            }, 700);
+        });
+    })(jQuery);
+
+</script>
+</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_with_border et_pb_row et_pb_row_1_tb_header">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1_tb_header dd-flex-column  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_0_tb_header dd-sB  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone et-pb-icon"></span></span></div>
+					<div class="et_pb_blurb_container">
+						
+						<div class="et_pb_blurb_description"><p><a href="mailto:enquiries@ortussecuredfinance.co.uk"><span>enquiries@ortussecuredfinance.co.uk</span></a></p></div>
+					</div>
+				</div>
+			</div><div class="et_pb_module et_pb_blurb et_pb_blurb_1_tb_header dd-sB  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone et-pb-icon"></span></span></div>
+					<div class="et_pb_blurb_container">
+						
+						<div class="et_pb_blurb_description"><p><a href="tel:02036375056">020 3637 5056</a></p></div>
+					</div>
+				</div>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_0_tb_header_wrapper  et_pb_module ">
+				<a class="et_pb_button et_pb_button_0_tb_header et_pb_bg_layout_light" href="https://ortussecuredfinance.co.uk/contact-us/">Contact us</a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_1_tb_header dd-fixed-header et_pb_with_background et_section_regular et_pb_section--with-menu" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_2_tb_header et_pb_row--with-menu">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2_tb_header dd-flex-column  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column--with-menu">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0_tb_header dd-logo et_pb_image_sticky">
+				
+				
+				
+				
+				<a href="https://ortussecuredfinance.co.uk/"><span class="et_pb_image_wrap "><img fetchpriority="high" decoding="async" width="2000" height="830" src="https://ortussecuredfinance.co.uk/wp-content/uploads/2023/11/ortus-logo-reverse-2000px.png" alt="" title="ortus-logo-reverse-2000px" srcset="https://ortussecuredfinance.co.uk/wp-content/uploads/2023/11/ortus-logo-reverse-2000px.png 2000w, https://ortussecuredfinance.co.uk/wp-content/uploads/2023/11/ortus-logo-reverse-2000px-1280x531.png 1280w, https://ortussecuredfinance.co.uk/wp-content/uploads/2023/11/ortus-logo-reverse-2000px-980x407.png 980w, https://ortussecuredfinance.co.uk/wp-content/uploads/2023/11/ortus-logo-reverse-2000px-480x199.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2000px, 100vw" class="wp-image-28383" /></span></a>
+			</div><div class="et_pb_module et_pb_menu et_pb_menu_0_tb_header et_pb_bg_layout_dark  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-primary" class="et-menu nav"><li id="menu-item-25292" class="et_pb_menu_page_id-home menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-25292"><a href="https://ortussecuredfinance.co.uk/">Home</a></li>
+<li id="menu-item-25461" class="et_pb_menu_page_id-25436 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25461"><a href="https://ortussecuredfinance.co.uk/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-27935" class="et_pb_menu_page_id-25436 menu-item menu-item-type-post_type menu-item-object-page menu-item-27935"><a href="https://ortussecuredfinance.co.uk/about-us/">About Us</a></li>
+	<li id="menu-item-25798" class="et_pb_menu_page_id-25780 menu-item menu-item-type-post_type menu-item-object-page menu-item-25798"><a href="https://ortussecuredfinance.co.uk/team/">Our Team</a></li>
+	<li id="menu-item-25778" class="et_pb_menu_page_id-25427 menu-item menu-item-type-post_type menu-item-object-page menu-item-25778"><a href="https://ortussecuredfinance.co.uk/frequently-asked-questions/">FAQs</a></li>
+</ul>
+</li>
+<li id="menu-item-25888" class="et_pb_menu_page_id-25881 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25888"><a href="https://ortussecuredfinance.co.uk/products/">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-26311" class="et_pb_menu_page_id-26311 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26311"><a href="#">Residential</a>
+	<ul class="sub-menu">
+		<li id="menu-item-25518" class="et_pb_menu_page_id-25467 menu-item menu-item-type-post_type menu-item-object-page menu-item-25518"><a href="https://ortussecuredfinance.co.uk/residential-bridging/">Residential Bridging</a></li>
+		<li id="menu-item-26039" class="et_pb_menu_page_id-26033 menu-item menu-item-type-post_type menu-item-object-page menu-item-26039"><a href="https://ortussecuredfinance.co.uk/high-value-single-unit/">High-Value Single Unit</a></li>
+		<li id="menu-item-25894" class="et_pb_menu_page_id-25800 menu-item menu-item-type-post_type menu-item-object-page menu-item-25894"><a href="https://ortussecuredfinance.co.uk/development-exit/">Development Exit</a></li>
+	</ul>
+</li>
+	<li id="menu-item-26312" class="et_pb_menu_page_id-26312 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26312"><a href="#">Commercial</a>
+	<ul class="sub-menu">
+		<li id="menu-item-25515" class="et_pb_menu_page_id-25490 menu-item menu-item-type-post_type menu-item-object-page menu-item-25515"><a href="https://ortussecuredfinance.co.uk/commercial-bridging/">Commercial Bridging</a></li>
+		<li id="menu-item-25516" class="et_pb_menu_page_id-25486 menu-item menu-item-type-post_type menu-item-object-page menu-item-25516"><a href="https://ortussecuredfinance.co.uk/stabilisation-loan/">Stabilisation Loan</a></li>
+		<li id="menu-item-25517" class="et_pb_menu_page_id-25477 menu-item menu-item-type-post_type menu-item-object-page menu-item-25517"><a href="https://ortussecuredfinance.co.uk/commercial-mortgage/">Commercial Mortgage</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-26149" class="et_pb_menu_page_id-26149 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26149"><a href="#">Publications</a>
+<ul class="sub-menu">
+	<li id="menu-item-25717" class="et_pb_menu_page_id-25542 menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-25717"><a href="https://ortussecuredfinance.co.uk/news/">News</a></li>
+	<li id="menu-item-25643" class="et_pb_menu_page_id-25643 menu-item menu-item-type-custom menu-item-object-custom menu-item-25643"><a href="/case-studies/">Case Studies</a></li>
+	<li id="menu-item-25918" class="et_pb_menu_page_id-25914 menu-item menu-item-type-post_type menu-item-object-page menu-item-25918"><a href="https://ortussecuredfinance.co.uk/useful-resources/">Resources</a></li>
+</ul>
+</li>
+<li id="menu-item-26150" class="et_pb_menu_page_id-88 menu-item menu-item-type-post_type menu-item-object-page menu-item-26150"><a href="https://ortussecuredfinance.co.uk/contact-us/">Contact Us</a></li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div><div id="dd-hamburger" class="et_pb_module et_pb_blurb et_pb_blurb_2_tb_header  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone et-pb-icon">a</span></span></div>
+					<div class="et_pb_blurb_container">
+						
+						
+					</div>
+				</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div id="dd-section" class="et_pb_section et_pb_section_2_tb_header et_pb_with_background et_section_regular et_pb_section--with-menu" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_3_tb_header">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_3_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div id="dd-close" class="et_pb_module et_pb_blurb et_pb_blurb_3_tb_header  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone et-pb-icon">M</span></span></div>
+					<div class="et_pb_blurb_container">
+						
+						
+					</div>
+				</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_4_tb_header et_pb_row--with-menu">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_4_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column--with-menu">
+				
+				
+				
+				
+				<div id="dd-menu-mobile" class="et_pb_module et_pb_menu et_pb_menu_1_tb_header dd-slide-menu et_pb_bg_layout_dark  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-primary-1" class="et-menu nav"><li class="et_pb_menu_page_id-home menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-25292"><a href="https://ortussecuredfinance.co.uk/">Home</a></li>
+<li class="et_pb_menu_page_id-25436 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25461"><a href="https://ortussecuredfinance.co.uk/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-25436 menu-item menu-item-type-post_type menu-item-object-page menu-item-27935"><a href="https://ortussecuredfinance.co.uk/about-us/">About Us</a></li>
+	<li class="et_pb_menu_page_id-25780 menu-item menu-item-type-post_type menu-item-object-page menu-item-25798"><a href="https://ortussecuredfinance.co.uk/team/">Our Team</a></li>
+	<li class="et_pb_menu_page_id-25427 menu-item menu-item-type-post_type menu-item-object-page menu-item-25778"><a href="https://ortussecuredfinance.co.uk/frequently-asked-questions/">FAQs</a></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-25881 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25888"><a href="https://ortussecuredfinance.co.uk/products/">Products</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-26311 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26311"><a href="#">Residential</a>
+	<ul class="sub-menu">
+		<li class="et_pb_menu_page_id-25467 menu-item menu-item-type-post_type menu-item-object-page menu-item-25518"><a href="https://ortussecuredfinance.co.uk/residential-bridging/">Residential Bridging</a></li>
+		<li class="et_pb_menu_page_id-26033 menu-item menu-item-type-post_type menu-item-object-page menu-item-26039"><a href="https://ortussecuredfinance.co.uk/high-value-single-unit/">High-Value Single Unit</a></li>
+		<li class="et_pb_menu_page_id-25800 menu-item menu-item-type-post_type menu-item-object-page menu-item-25894"><a href="https://ortussecuredfinance.co.uk/development-exit/">Development Exit</a></li>
+	</ul>
+</li>
+	<li class="et_pb_menu_page_id-26312 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26312"><a href="#">Commercial</a>
+	<ul class="sub-menu">
+		<li class="et_pb_menu_page_id-25490 menu-item menu-item-type-post_type menu-item-object-page menu-item-25515"><a href="https://ortussecuredfinance.co.uk/commercial-bridging/">Commercial Bridging</a></li>
+		<li class="et_pb_menu_page_id-25486 menu-item menu-item-type-post_type menu-item-object-page menu-item-25516"><a href="https://ortussecuredfinance.co.uk/stabilisation-loan/">Stabilisation Loan</a></li>
+		<li class="et_pb_menu_page_id-25477 menu-item menu-item-type-post_type menu-item-object-page menu-item-25517"><a href="https://ortussecuredfinance.co.uk/commercial-mortgage/">Commercial Mortgage</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-26149 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26149"><a href="#">Publications</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-25542 menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-25717"><a href="https://ortussecuredfinance.co.uk/news/">News</a></li>
+	<li class="et_pb_menu_page_id-25643 menu-item menu-item-type-custom menu-item-object-custom menu-item-25643"><a href="/case-studies/">Case Studies</a></li>
+	<li class="et_pb_menu_page_id-25914 menu-item menu-item-type-post_type menu-item-object-page menu-item-25918"><a href="https://ortussecuredfinance.co.uk/useful-resources/">Resources</a></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-88 menu-item menu-item-type-post_type menu-item-object-page menu-item-26150"><a href="https://ortussecuredfinance.co.uk/contact-us/">Contact Us</a></li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</header>
+	<div id="et-main-area">
+	
+<div id="main-content">
+	<div class="container">
+		<div id="content-area" class="clearfix">
+			<div id="left-area">
+				<article id="post-0" class="et_pb_post not_found post-29237 post type-post status-publish format-standard has-post-thumbnail hentry category-homepagefeatured category-news tag-full-width">
+					<div class="entry">
+	<h1 class="not-found-title">No Results Found</h1>
+	<p>The page you requested could not be found. Try refining your search, or use the navigation above to locate the post.</p>
+</div>
+				</article>
+			</div>
+
+				<div id="sidebar">
+		<div id="block-2" class="et_pb_widget widget_block widget_search"><form role="search" method="get" action="https://ortussecuredfinance.co.uk/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label" for="wp-block-search__input-1" >Search</label><div class="wp-block-search__inside-wrapper" ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required /><button aria-label="Search" class="wp-block-search__button wp-element-button" type="submit" >Search</button></div></form></div><div id="block-3" class="et_pb_widget widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Recent Posts</h2><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://ortussecuredfinance.co.uk/stephen-davison/">Stephen Davison</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://ortussecuredfinance.co.uk/high-value-residential-and-commercial-stabilisation/">High-value residential and commercial stabilisation</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://ortussecuredfinance.co.uk/adding-value-through-creative-loan-structuring/">Adding value through creative loan structuring</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://ortussecuredfinance.co.uk/read-about-our-approach-to-lending-in-the-south-west-of-england/">Read about our approach to lending in the south-west of England</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://ortussecuredfinance.co.uk/meeting-the-challenges-of-lending-in-scotland-and-northern-ireland/">Meeting the challenges of lending in Scotland and Northern Ireland</a></li>
+</ul></div></div><div id="block-4" class="et_pb_widget widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Recent Comments</h2><div class="no-comments wp-block-latest-comments">No comments to show.</div></div></div>	</div>
+		</div>
+	</div>
+</div>
+
+	<footer class="et-l et-l--footer">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0_tb_footer geotargetlygeocontent1636105068805_content_1 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_code et_pb_code_0_tb_footer">
+				
+				
+				
+				
+				<div class="et_pb_code_inner"><style>
+	footer .et_pb_section {
+		padding: 0;
+	}
+</style>
+
+<div
+	class="et-module-7c25daf9-63ae-4fd6-a9d3-07f076be99b6 et_pb_row ui-sortable et_pb_row_23 et-animated--vb et-fb-row--has-short-module et-first-child et_pb_row_structure-4_4"
+	data-address="11.0"
+	data-specialty-layout="false"
+>
+	<div
+		class="et-module-20cf3b41-28b2-4ea3-b097-60c95e12efb1 et_pb_column ui-sortable et-animated--vb et_pb_column_4_4 et_pb_column_29 et-first-child et-last-child et_pb_with_border"
+		data-address="11.0.0"
+	>
+		<div class="et-fb-mousetrap et-fb-mousetrap--column"></div>
+		<style
+			type="text/css"
+			class="et-fb-custom-css-output"
+			data-sticky-has-transform="off"
+		>
+			.et_pb_column_29 {
+				background-image: initial;
+				height: auto;
+				max-height: auto;
+				min-height: auto;
+				left: 0px;
+				right: auto;
+				top: 0px;
+				bottom: auto;
+			}
+		</style>
+		<div
+			class="et-module-662d5c27-5b40-4a9b-a0e6-2bd46c6a9076 et_pb_text et_pb_module ui-sortable et_pb_text_22 et-animated--vb et_pb_text_align_center et_pb_bg_layout_light et-fb-module--short et-fb-module--has-mousetrap et-first-child"
+			data-address="11.0.0.0"
+			dynamic="[object Object]"
+			matching="[object Object]"
+			parent_slug="et_pb_column"
+			theme_builder_suffix=""
+			wp_editor_suffix=""
+			wrapper_settings="[object Object]"
+			_key="662d5c27-5b40-4a9b-a0e6-2bd46c6a9076"
+			style=""
+		>
+			<div class="et_pb_text_inner">
+				<div
+					data-shortcode-id="11.0.0.0-1666778416448"
+					data-quickaccess-editable="yes"
+					class="et-fb-popover-tinymce"
+				>
+					<div
+						id="react-tinymce-10"
+						class="mce-content-body"
+						contenteditable="true"
+						style="position: relative"
+					>
+						<h2>Subscribe for the latest updates</h2>
+					</div>
+				</div>
+			</div>
+			<div
+				class="et-fb-mousetrap et-fb-mousetrap--module et-fb-mousetrap-move"
+				style="
+					background: 0px center;
+					pointer-events: none;
+					top: -10px;
+					bottom: -27px;
+				"
+			></div>
+			<style
+				type="text/css"
+				class="et-fb-custom-css-output"
+				data-sticky-has-transform="off"
+			>
+				.et_pb_text_22 h2 {
+					font-family: "Noto Sans", Helvetica, Arial, Lucida,
+						sans-serif;
+					font-weight: undefined;
+					font-weight: 700;
+					text-transform: uppercase;
+					font-size: 40px;
+					color: #f6f6f6 !important;
+				}
+				.et_pb_text_22 {
+					background-image: initial;
+					height: auto;
+					max-height: none;
+					min-height: auto;
+					position: relative !important;
+					top: 0px;
+					right: auto;
+					bottom: auto;
+					left: 0px;
+				}
+				@media only screen and (max-width: 980px) {
+					.et_pb_text_22 h2 {
+						font-size: 42px;
+					}
+				}
+				@media only screen and (max-width: 767px) {
+					.et_pb_text_22 h2 {
+						font-size: 30px;
+					}
+				}
+			</style>
+		</div>
+		<div
+			class="et-module-ea1c85c3-a130-4a95-adae-0a1293874e33 et_pb_divider et_pb_module ui-sortable et_pb_divider_35 et-animated--vb et_pb_space et-fb-module--short et-fb-module--has-mousetrap et_pb_with_border"
+			data-address="11.0.0.1"
+			dynamic="[object Object]"
+			matching="[object Object]"
+			parent_slug="et_pb_column"
+			theme_builder_suffix=""
+			wp_editor_suffix=""
+			wrapper_settings="[object Object]"
+			_key="ea1c85c3-a130-4a95-adae-0a1293874e33"
+		>
+			<div class="et_pb_divider_internal"></div>
+			<div
+				class="et-fb-mousetrap et-fb-mousetrap--module et-fb-mousetrap-move"
+				style="
+					background: 0px center;
+					pointer-events: none;
+					top: -35.2031px;
+					bottom: 0px;
+				"
+			></div>
+			<style
+				type="text/css"
+				class="et-fb-custom-css-output"
+				data-sticky-has-transform="off"
+			>
+				.et_pb_divider_35 {
+					background-image: initial;
+					border-top-width: 1px;
+					border-top-color: #009ecf;
+					margin-top: 0px !important;
+					margin-bottom: 0px !important;
+					padding-top: 0px;
+					padding-bottom: 0px;
+					width: 300px;
+					margin-left: auto !important;
+					margin-right: auto !important;
+					height: auto;
+					max-height: none;
+					min-height: auto;
+					left: 0px;
+					right: auto;
+					top: 0px;
+					bottom: auto;
+				}
+				.et_pb_sticky .et_pb_divider_35 {
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+				.et_pb_divider_35:before {
+					border-top-color: #009ecf;
+					border-top-style: solid;
+					border-top-width: 1px;
+					width: auto;
+					top: 0px;
+					left: 0px;
+					right: 0px;
+				}
+				@media only screen and (max-width: 980px) {
+					.et_pb_divider_35 {
+						border-top-width: 1px;
+						border-top-color: #009ecf;
+						width: auto;
+						margin-left: auto !important;
+						margin-right: auto !important;
+					}
+					.et_pb_divider_35:before {
+						border-top-color: #009ecf;
+					}
+				}
+				@media only screen and (max-width: 767px) {
+					.et_pb_divider_35 {
+						border-top-width: 1px;
+						border-top-color: #009ecf;
+						width: auto;
+						margin-left: auto !important;
+						margin-right: auto !important;
+					}
+					.et_pb_divider_35:before {
+						border-top-color: #009ecf;
+					}
+				}
+			</style>
+		</div>
+	</div>
+	<div
+		class="et-fb-mousetrap et-fb-mousetrap-move et-fb-mousetrap--row"
+		style="background: transparent"
+	></div>
+
+	<div
+		class="et_pb_module et_pb_signup_4_tb_footer et_pb_newsletter_layout_top_bottom et_pb_newsletter et_pb_subscribe clearfix et_pb_text_align_left et_pb_bg_layout_dark et_pb_newsletter_description_no_title"
+	>
+		<div class="et_pb_newsletter_description">
+			<div>
+				<p>
+					<span style="font-weight: 400"
+						>Subscribe to our newsletter so you don’t miss out on
+						our latest news, industry insights, product updates and
+						more.
+					</span>
+				</p> 
+			</div>
+		</div>
+
+		<!-- Custom styles for gravity form -->
+		<style>
+			.gform_heading {
+				display: none;
+			}
+			.gform_wrapper {
+				max-width: 600px;
+				margin: 15px auto 0;
+			}
+		</style>
+
+		
+                <div class='gf_browser_unknown gform_wrapper gravity-theme gform-theme--no-framework emailSignup_wrapper' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_7' >
+                        <div class='gform_heading'>
+                            <h2 class="gform_title">defaultSignup</h2>
+                            <p class='gform_description'></p>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_7' class='emailSignup' action='/wp-content/uploads/2024/02/cropped-Ortus-favicon-32x32.png' data-formid='7' novalidate><div class='gf_invisible ginput_recaptchav3' data-sitekey='6LfslT0dAAAAAEMEq8l9VxDyN9JU9td1Kkv787cY' data-tabindex='0'><input id="input_61f87a908f62b0d49b87899acce0b1b4" class="gfield_recaptcha_response" type="hidden" name="input_61f87a908f62b0d49b87899acce0b1b4" value=""/></div>
+                        <div class='gform-body gform_body'><div id='gform_fields_7' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_7_1" class="gfield gfield--type-email field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_7_1'>Email</label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_7_1' type='email' value='' class='large'   placeholder='Email Address:'  aria-invalid="false"  />
+                        </div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_7' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Subscribe'  /> 
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_7' value='postback' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_7' id='gform_theme_7' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_7' id='gform_style_settings_7' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_7' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='7' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='GBP' value='jqH0k21DPsrjYLDIIRz8pVT+mf4iksKPTp/FXfEZWaCavAzce21/HzKB3Ck1Ymgk0csD6O4YeSBeSNZpD/Vxt5eirNY6En7CjDXbqEYWIxFQNcA=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_7' value='WyJbXSIsImQyZTkxZWM1YWI0ODBmMGEyODAyNzIyMTJkZjE1Nzc1Il0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_7' id='gform_target_page_number_7' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_7' id='gform_source_page_number_7' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 7, 'https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_7').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_7');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_7').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_7').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_7').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_7').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_7').val();gformInitSpinner( 7, 'https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [7, current_page]);window['gf_submitting_7'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_7').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [7]);window['gf_submitting_7'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_7').text());}else{jQuery('#gform_7').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "7", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_7" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_7";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_7" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 7, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+
+
+		<style
+			type="text/css"
+			class="et-fb-custom-css-output"
+			data-sticky-has-transform="off"
+		>
+			.et_pb_row_23 {
+				background-image: initial;
+				height: auto;
+				max-height: none;
+				min-height: auto;
+				left: 0px;
+				right: auto;
+				top: 0px;
+				bottom: auto;
+			}
+		</style>
+	</div>
+</div>
+</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_1_tb_footer et_pb_fullwidth_section et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_fullwidth_code et_pb_fullwidth_code_0_tb_footer">
+				
+				
+				
+				
+				<div class="et_pb_code_inner"><style>
+	.et_pb_row.et_pb_row_5_tb_footer.et_pb_gutters2.et_pb_row_1-2_1-4_1-4 p {
+		color: #6f6f6f !important;
+	}
+
+	footer .et_pb_gutters3 .et_pb_column_1_4 .et_pb_module,
+	.et_pb_gutters3.et_pb_row .et_pb_column_1_4 .et_pb_module {
+		margin-bottom: 8px;
+	}
+</style>
+
+<div
+	class="et_pb_row et_pb_row_5_tb_footer et_pb_gutters2 et_pb_row_1-2_1-4_1-4"
+>
+	<div
+		class="et_pb_column et_pb_column_1_2 et_pb_column_5_tb_footer et_pb_css_mix_blend_mode_passthrough"
+	>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_5_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<h3>Phone</h3>
+				<p>
+					<a href="tel:02036375056"><span>020 3637 5056</span></a>
+				</p> 
+			</div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_6_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<h3>Email</h3>
+				<p>
+					<a href="mailto:enquiries@ortussecuredfinance.co.uk"
+						>enquiries@ortussecuredfinance.co.uk</a
+					>
+				</p> 
+			</div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_7_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<h3>Head Office</h3>
+				<p>Nations House, 103 Wigmore Street, London, W1U 1QS</p> 
+			</div>
+		</div>
+		<!-- <ul
+			class="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_0_tb_footer clearfix et_pb_text_align_left et_pb_bg_layout_light"
+			style="list-style-type: none; padding: 0; margin: 0"
+		>
+			<li
+				class="et_pb_social_media_follow_network_0_tb_footer et_pb_social_icon et_pb_social_network_link et-social-linkedin"
+			> -->
+		<a
+			href="https://www.linkedin.com/company/ortus-secured-finance"
+			class="icon et_pb_with_border"
+			title="Follow on LinkedIn"
+			target="_blank"
+			><span aria-hidden="true"
+				>Follow on LinkedIn<!-- Originally said "Follow" --></span
+			></a
+		>
+		<!-- previously, span had a class="et_pb_social_media_follow_network_name" -->
+		<!-- </li>
+		</ul> -->
+	</div>
+	<div
+		class="et_pb_column et_pb_column_1_4 et_pb_column_6_tb_footer et_pb_css_mix_blend_mode_passthrough"
+	>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_8_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner"><h3>Quick Links</h3></div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_9_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a href="https://ortussecuredfinance.co.uk/about-us/"
+						>About</a
+					>
+				</p> 
+			</div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_10_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a href="https://ortussecuredfinance.co.uk/about-us/#team"
+						>Team</a
+					>
+				</p> 
+			</div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_11_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a href="https://ortussecuredfinance.co.uk/news/">News</a>
+				</p> 
+			</div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_12_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a href="https://ortussecuredfinance.co.uk/case-studies/"
+						>Case Studies</a
+					>
+				</p> 
+			</div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_13_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a href="https://ortussecuredfinance.co.uk/careers/"
+						>Careers</a
+					>
+				</p> 
+			</div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_14_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a href="https://ortussecuredfinance.co.uk/contact-us/"
+						>Contact Us</a
+					>
+				</p> 
+			</div>
+		</div>
+    <div
+			class="et_pb_module et_pb_text et_pb_text_14_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a href="https://ortussecuredfinance.co.uk/wp-content/uploads/Privacy%20Notice.pdf"
+						>Privacy Notice</a
+					>
+				</p> 
+			</div>
+		</div>
+    <div
+			class="et_pb_module et_pb_text et_pb_text_10_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a href="https://ortussecuredfinance.co.uk/wp-content/uploads/Personal%20Data%20Protection%20Policy.pdf?_t=1704879461"
+						>GDPR Policy</a
+					>
+				</p> 
+			</div>
+		</div>
+	</div>
+	<div
+		class="et_pb_column et_pb_column_1_4 et_pb_column_7_tb_footer et_pb_css_mix_blend_mode_passthrough et-last-child"
+	>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_15_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner"><h3>Products</h3></div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_16_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a
+						href="https://ortussecuredfinance.co.uk/products/#residential"
+						>Residential Products</a
+					>
+				</p> 
+			</div>
+		</div>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_17_tb_footer et_pb_text_align_left et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<p>
+					<a
+						href="https://ortussecuredfinance.co.uk/products/#commercial"
+						>Commercial Products</a
+					>
+				</p> 
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+			</div>
+				
+				
+			</div><div id="quick-enquiry" class="et_pb_section et_pb_section_3_tb_footer popup et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_1_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_footer  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Contact us today</h2></div>
+			</div><div class="et_pb_with_border et_pb_module et_pb_divider et_pb_divider_0_tb_footer et_pb_divider_position_ et_pb_space"><div class="et_pb_divider_internal"></div></div><div class="et_pb_module et_pb_text et_pb_text_1_tb_footer  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><span style="color: #1a202a;">Get in touch to see if Ortus can help with your lending needs.</span></div>
+			</div>
+			<div id="et_pb_contact_form_0" class="et_pb_module et_pb_contact_form_0_tb_footer et_pb_recaptcha_enabled et_pb_contact_form_container clearfix" data-form_unique_num="0" data-form_unique_id="62252dea-e848-4ffc-afcd-9fecf4703329">
+				
+				
+				
+				
+				
+				<div class="et-pb-contact-message"></div>
+				
+				<div class="et_pb_contact">
+					<form class="et_pb_contact_form clearfix" method="post" action="https://ortussecuredfinance.co.uk/wp-content/uploads/2024/02/cropped-Ortus-favicon-32x32.png">
+						<p class="et_pb_contact_field et_pb_contact_field_0_tb_footer et_pb_contact_field_half" data-id="name" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_name_0" class="et_pb_contact_form_label">Broker Name</label>
+				<input type="text" id="et_pb_contact_name_0" class="input" value="" name="et_pb_contact_name_0" data-required_mark="required" data-field_type="input" data-original_id="name" placeholder="Broker Name">
+			</p><p class="et_pb_contact_field et_pb_contact_field_1_tb_footer et_pb_contact_field_half et_pb_contact_field_last" data-id="company" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_company_0" class="et_pb_contact_form_label">Broker Company</label>
+				<input type="text" id="et_pb_contact_company_0" class="input" value="" name="et_pb_contact_company_0" data-required_mark="required" data-field_type="input" data-original_id="company" placeholder="Broker Company">
+			</p><p class="et_pb_contact_field et_pb_contact_field_2_tb_footer et_pb_contact_field_half" data-id="email" data-type="email">
+				
+				
+				
+				
+				<label for="et_pb_contact_email_0" class="et_pb_contact_form_label">Broker Email </label>
+				<input type="text" id="et_pb_contact_email_0" class="input" value="" name="et_pb_contact_email_0" data-required_mark="required" data-field_type="email" data-original_id="email" placeholder="Broker Email ">
+			</p><p class="et_pb_contact_field et_pb_contact_field_3_tb_footer et_pb_contact_field_half et_pb_contact_field_last" data-id="number" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_number_0" class="et_pb_contact_form_label">Broker Contact Number </label>
+				<input type="text" id="et_pb_contact_number_0" class="input" value="" name="et_pb_contact_number_0" data-required_mark="required" data-field_type="input" data-original_id="number" placeholder="Broker Contact Number ">
+			</p><p class="et_pb_contact_field et_pb_contact_field_4_tb_footer et_pb_contact_field_last" data-id="address" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_address_0" class="et_pb_contact_form_label">Property Address</label>
+				<input type="text" id="et_pb_contact_address_0" class="input" value="" name="et_pb_contact_address_0" data-required_mark="required" data-field_type="input" data-original_id="address" placeholder="Property Address">
+			</p><p class="et_pb_contact_field et_pb_contact_field_5_tb_footer et_pb_contact_field_half" data-id="type" data-type="select">
+				
+				
+				
+				
+				<label for="et_pb_contact_type_0" class="et_pb_contact_form_label">Property Type</label>
+				<select id="et_pb_contact_type_0" class="et_pb_contact_select input" name="et_pb_contact_type_0" data-required_mark="required" data-field_type="select" data-original_id="type">
+						<option value="">Property Type</option><option value="Commercial">Commercial</option><option value="Residential">Residential</option>
+					</select>
+			</p><p class="et_pb_contact_field et_pb_contact_field_6_tb_footer et_pb_contact_field_half et_pb_contact_field_last" data-id="value" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_value_0" class="et_pb_contact_form_label">Property Value</label>
+				<input type="text" id="et_pb_contact_value_0" class="input" value="" name="et_pb_contact_value_0" data-required_mark="required" data-field_type="input" data-original_id="value" placeholder="Property Value">
+			</p><p class="et_pb_contact_field et_pb_contact_field_7_tb_footer et_pb_contact_field_half" data-id="loan" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_loan_0" class="et_pb_contact_form_label">Property Loan Required</label>
+				<input type="text" id="et_pb_contact_loan_0" class="input" value="" name="et_pb_contact_loan_0" data-required_mark="required" data-field_type="input" data-original_id="loan" placeholder="Property Loan Required">
+			</p><p class="et_pb_contact_field et_pb_contact_field_8_tb_footer et_pb_contact_field_half et_pb_contact_field_last" data-id="term" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_term_0" class="et_pb_contact_form_label">Term Loan Required</label>
+				<input type="text" id="et_pb_contact_term_0" class="input" value="" name="et_pb_contact_term_0" data-required_mark="required" data-field_type="input" data-original_id="term" placeholder="Term Loan Required">
+			</p><p class="et_pb_contact_field et_pb_contact_field_9_tb_footer et_pb_contact_field_half" data-id="broker_type" data-type="select">
+				
+				
+				
+				
+				<label for="et_pb_contact_broker_type_0" class="et_pb_contact_form_label">Type:</label>
+				<select id="et_pb_contact_broker_type_0" class="et_pb_contact_select input" name="et_pb_contact_broker_type_0" data-required_mark="required" data-field_type="select" data-original_id="broker_type">
+						<option value="">Type:</option><option value="Broker">Broker</option><option value="Direct Client">Direct Client</option>
+					</select>
+			</p>
+						<input type="hidden" value="et_contact_proccess" name="et_pb_contactform_submit_0"/>
+						<div class="et_contact_bottom_container">
+							
+							<button type="submit" name="et_builder_submit_button" class="et_pb_contact_submit et_pb_button">Submit</button>
+						</div>
+						<input type="hidden" id="_wpnonce-et-pb-contact-form-submitted-0" name="_wpnonce-et-pb-contact-form-submitted-0" value="5a53fdc72f" /><input type="hidden" name="_wp_http_referer" value="/wp-content/uploads/2024/02/cropped-Ortus-favicon-32x32.png" />
+					</form>
+				</div>
+			</div>
+			
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_4_tb_footer et_pb_fullwidth_section et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_fullwidth_code et_pb_fullwidth_code_1_tb_footer">
+				
+				
+				
+				
+				<div class="et_pb_code_inner"><style>
+	/* Added this stuff to make that image at the bottom the right size...*/
+	/*! CSS Used from: https://ortussecuredfinance.co.uk/wp-content/themes/Divi/style.min.css?ver=4.18.0 ; media=all */
+@media all {
+		div,
+		img,
+		span {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			outline: 0;
+			font-size: 100%;
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+			vertical-align: baseline;
+			background: transparent;
+		}
+		:focus {
+			outline: 0;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		* {
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		.et_pb_css_mix_blend_mode_passthrough {
+			mix-blend-mode: unset !important;
+		}
+		.et_pb_module {
+			position: relative;
+			background-size: cover;
+			background-position: 50%;
+			background-repeat: no-repeat;
+		}
+		.et_pb_module {
+			-webkit-animation-timing-function: linear;
+			animation-timing-function: linear;
+			-webkit-animation-duration: 0.2s;
+			animation-duration: 0.2s;
+		}
+		@media (min-width: 981px) {
+			.et_pb_section
+				div.et_pb_row
+				.et_pb_column
+				.et_pb_module:last-child {
+				margin-bottom: 0;
+			}
+		}
+		@media (max-width: 980px) {
+			.et_pb_column .et_pb_module {
+				margin-bottom: 30px;
+			}
+			.et_pb_row .et_pb_column .et_pb_module:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	/*! CSS Used from: Embedded */
+	@media (min-width: 981px) {
+		.et_pb_gutters3 .et_pb_column {
+			margin-right: 5.5%;
+		}
+		.et_pb_gutters3 .et_pb_column_4_4 {
+			width: 100%;
+		}
+		.et_pb_gutters3 .et_pb_column_4_4 .et_pb_module {
+			margin-bottom: 2.75%;
+		}
+	}
+	.et_pb_fullwidth_section
+		> .et_pb_module:not(.et_pb_post_content):not(.et_pb_fullwidth_post_content)
+		.et_pb_row {
+		padding: 0 !important;
+	}
+	.et_pb_row {
+		width: 80%;
+		max-width: 1080px;
+		margin: auto;
+		position: relative;
+	}
+	.et_pb_row:after {
+		content: "";
+		display: block;
+		clear: both;
+		visibility: hidden;
+		line-height: 0;
+		height: 0;
+		width: 0;
+	}
+	.et_pb_column {
+		float: left;
+		background-size: cover;
+		background-position: 50%;
+		position: relative;
+		z-index: 2;
+		min-height: 1px;
+	}
+	.et_pb_row .et_pb_column.et-last-child,
+	.et_pb_row .et_pb_column:last-child {
+		margin-right: 0 !important;
+	}
+	.et_pb_column,
+	.et_pb_row {
+		background-size: cover;
+		background-position: 50%;
+		background-repeat: no-repeat;
+	}
+	@media (min-width: 981px) {
+		.et_pb_row {
+			padding: 2% 0;
+		}
+		.et_pb_row .et_pb_column.et-last-child,
+		.et_pb_row .et_pb_column:last-child {
+			margin-right: 0 !important;
+		}
+	}
+	@media (max-width: 980px) {
+		.et_pb_row {
+			max-width: 1080px;
+		}
+		.et_pb_row {
+			padding: 30px 0;
+		}
+		.et_pb_column {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+		.et_pb_row .et_pb_column.et-last-child,
+		.et_pb_row .et_pb_column:last-child {
+			margin-bottom: 0;
+		}
+	}
+	@media (max-width: 479px) {
+		.et_pb_column {
+			width: 100% !important;
+		}
+	}
+	.et_pb_image {
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 0;
+	}
+	.et_pb_image {
+		display: block;
+	}
+	.et_pb_image .et_pb_image_wrap {
+		display: inline-block;
+		position: relative;
+		max-width: 100%;
+	}
+  .et_pb_fullwidth_code_1_tb_footer {
+    background-size: initial !important;
+    background-repeat: repeat-x !important;
+    background-position: center bottom 0px !important;
+  }
+	.et_pb_image img {
+		position: relative;
+	}
+	/*! CSS Used from: Embedded */
+	@media only screen and (min-width: 1350px) {
+		.et_pb_row {
+			padding: 27px 0;
+		}
+	}
+	! CSS Used from: https://ortussecuredfinance.co.uk/wp-content/et-cache/6/et-core-unified-tb-25115-tb-27002-deferred-6.min.css?ver=1666814337 
+	.footer-image-outer.et_pb_row {
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+		margin-bottom: 0px !important;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.footer-image-outer {
+		width: 100%;
+		max-width: none;
+	}
+	.footer-image-outer {
+		position: static !important;
+		top: 0px;
+		right: auto;
+		bottom: auto;
+		left: 0px;
+	}
+	.footer-image-inner {
+		filter: opacity(60%);
+		backface-visibility: hidden;
+		max-width: 500px;
+		text-align: left;
+		margin-left: 0;
+	}
+</style>
+
+<!--<div
+	class="et_pb_row et_pb_row_6_tb_footer"
+	style="
+		position: fixed;
+		bottom: 0;
+		color: white;
+		/* background-color: #1A202A !important; */
+		width: fit-content;
+		right: 0;
+		z-index: 100;
+	"
+>
+	<div
+		class="et_pb_column et_pb_column_4_4 et_pb_column_8_tb_footer et_pb_css_mix_blend_mode_passthrough et-last-child"
+	>
+		<div
+			class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_module"
+		>
+			<a
+				id="contactUsNow"
+				class="et_pb_button et_pb_button_0 et_pb_bg_layout_light"
+				href="#contactUsNow"
+				>Quick Enquiry</a
+			>
+		</div>
+	</div>
+</div>
+!-->
+<style>
+	/* .et_pb_scroll_top.et-pb-icon.et-visible:first-child {
+		bottom: 150px;
+	} */
+
+	/* Old stuff */
+	#quick-enquiry-toast {
+		display: inline;
+		bottom: 60px;
+		padding: 0;
+		background-color: transparent;
+	}
+	#quick-enquiry-toast::before {
+		content: "";
+	}
+
+</style>
+
+<span class="et_pb_scroll_top et-pb-icon et-visible" id="quick-enquiry-toast">
+	<div
+		class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_module"
+	>
+		<!-- <a
+			id="contactUsNow"
+			class="et_pb_button et_pb_button_0 et_pb_bg_layout_light"
+			href="#quick-enquiry"
+			>Quick Enquiry</a
+		> -->
+
+		<a class="et-module-9fe940bd-1ab9-458e-bb4f-34df11b61b8f et_pb_button ui-sortable et_pb_button_13_tb_footer et-animated--vb et_pb_bg_layout_light et-fb-module--short et-fb-module--has-mousetrap" dynamic="[object Object]" href="#quick-enquiry" matching="[object Object]" parent_slug="et_pb_column" theme_builder_suffix="" wp_editor_suffix="" wrapper_settings="[object Object]" _key="9fe940bd-1ab9-458e-bb4f-34df11b61b8f">Quick Enquiry</a>
+	</div>
+</span>
+
+
+
+<div class="et_pb_row et_pb_row_7_tb_footer">
+	<div
+		class="et_pb_column et_pb_column_4_4 et_pb_column_9_tb_footer et_pb_css_mix_blend_mode_passthrough et-last-child"
+	>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_19_tb_footer et_pb_text_align_center et_pb_bg_layout_light"
+		>
+			<div class="et_pb_text_inner">
+				<span style="color:#fff"> Copyright © 2022 Ortus Secured Finance </span>
+			</div>
+		</div>
+		<div
+			class="et_pb_module et_pb_code et_pb_code_0_tb_footer et_pb_text_align_center"
+		>
+			<div class="et_pb_code_inner">
+				<span style="color: #fff !important; padding-right: 5px"
+					>Designed in Belfast by </span
+				><span
+					><a
+						href="https://rapidmarketing.co.uk/"
+						target="_blank"
+						rel="noopener"
+						><svg
+							id="Layer_1"
+							data-name="Layer 1"
+							xmlns="http://www.w3.org/2000/svg"
+							width="140"
+							height="11"
+							viewBox="0 0 1372.11 100.02"
+						>
+							<defs>
+								<style>
+									.logoFill {
+										fill: #fff;
+									}
+								</style>
+							</defs>
+							<path
+								class="logoFill"
+								d="M832.22,0c3.19,3.13,6.21,6.43,9.32,9.65s6.12,6.34,9.12,9.52L860,28.91c3,3.17,6.07,6.36,9.11,9.53l9.31,9.73c3.1,3.24,6.07,6.36,9.12,9.53s6.07,6.47,9.17,9.55a5.22,5.22,0,0,0,.54-.38.62.62,0,0,0,.09-.26,2.74,2.74,0,0,0,.05-.28V6.72a1.5,1.5,0,0,1,.09-.57,3,3,0,0,1,.12-.43c2.06-.6,4.25-.24,6.41-.28a54,54,0,0,1,6.61.1c.1.64.23,1.09.25,1.54.26,5.14.06,90.75-.2,92.84-.87.34-1.17-.44-1.59-.86l-18.25-19-43-44.91c-.65-.67-1.34-1.3-2-1.91-.74.28-.61.82-.62,1.26V94.8c-.3.27-.43.5-.57.51-4.19.35-8.38.1-12.68.16a15.58,15.58,0,0,1-.31-1.79V.27Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M694.66,22c-3.33,3.18-6.37,6.19-9.63,9.15-.8-1-1.46-1.78-2.15-2.57-3.81-4.38-8.19-8.08-13.73-10-10.69-3.77-21-2.72-30.31,3.77a32.15,32.15,0,0,0-14.43,26.37,39.09,39.09,0,0,0,.55,8.84,29.64,29.64,0,0,0,5.21,12.29A35,35,0,0,0,650,83.62c12.92,3.31,24.17-2.89,30.12-11.54a22.57,22.57,0,0,0,3.2-7,9.46,9.46,0,0,0,.34-3.59,37.85,37.85,0,0,0-5.43-.15H661.89c-.9-2.2-.38-4.31-.46-6.37s0-4,0-5.93c1.1-.77,2.18-.51,3.19-.51h33.67a6.55,6.55,0,0,1,.36,1.45,68.51,68.51,0,0,1-1.6,16.77,38.13,38.13,0,0,1-11,18.76,40.31,40.31,0,0,1-28.18,11.55c-7.39.17-14.51-1-21.08-4.41-13.27-6.94-22-17.55-25.15-32.32C606.82,37.91,619,15.07,640.16,6.85A47,47,0,0,1,675.39,7a40.06,40.06,0,0,1,10.27,6.23A60.19,60.19,0,0,1,694.66,22Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M583.8,95.35H569.32c-.92-.6-1.07-1.6-1.44-2.45-2.37-5.42-4.7-10.86-7-16.3-.41-1-.86-1.9-1.27-2.79-2.52-.33-36.08-.33-38.67,0l-9.84,21.33a97.27,97.27,0,0,1-14.18.11c-.39-1,.3-1.64.63-2.37q8-17.14,15.94-34.28L539.21,3.31a7.05,7.05,0,0,1,1.88-3C555.33,31.92,569.45,63.41,583.8,95.35ZM526.94,60.68q.62.12,1.23.18h24.34a3.88,3.88,0,0,0,1-.26c-.54-2.42-6.33-16.06-12-28.27a14.12,14.12,0,0,0-.85-1.49c-1.43,2.1-10,20.49-13.28,28.31C527.24,59.56,527.15,60,526.94,60.68Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M789.26,5.56a59,59,0,0,1,.14,12.18c-.79.62-1.78.38-2.7.38H756.34c-.84,0-1.67.11-2.45.17-.44,2.23-.55,17.28-.19,21.08.89.74,2,.41,3,.41h28.38c1,0,2.08,0,3.18.08.62,1.38.3,2.73.35,4s0,2.87,0,4.3a21.37,21.37,0,0,1-.17,4,9,9,0,0,1-3.19.27H756.87c-1,0-2.1-.24-3,.35-.4,2.34-.4,27,0,29.54a6.24,6.24,0,0,0,3,.29h32.3c.62,2,.72,9.07.22,12.47a7.59,7.59,0,0,1-3,.24H743.14c-.93,0-1.86-.08-2.91-.13-.08-.74-.17-1.29-.19-1.84-.38-15-.17-84.79.28-87.8a7.24,7.24,0,0,1,3-.24h44.44A6.62,6.62,0,0,0,789.26,5.56Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M1024,10.33V25.49c-.66.49-1.06-.08-1.48-.4a44.51,44.51,0,0,0-9.54-5.75c-8-3.43-16.16-4-24.29-1C977.26,22.62,970.16,31,967.52,42.81c-1.82,8.13-1.17,16.2,2.83,23.69,4.73,8.87,11.89,14.85,21.84,17,8.66,1.93,16.9.83,24.47-4,1.84-1.18,3.58-2.53,5.38-3.79a17.87,17.87,0,0,1,1.51-1,2.38,2.38,0,0,1,.41.23.53.53,0,0,1,.07.28v14a12.12,12.12,0,0,1-.15,1.21,37.77,37.77,0,0,1-8.54,3.93c-12.31,4.06-24.52,3.91-36.22-1.87C965.79,86,956.92,75.38,954,60.67c-3.28-16.36,1-30.82,12.59-43A43.69,43.69,0,0,1,990.81,4.51a46.59,46.59,0,0,1,31.11,4.57C1022.66,9.49,1023.25,9.89,1024,10.33Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M1097,95.2a76.56,76.56,0,0,1-13.2,0c-.56-1-.3-2-.3-3V59.52a10.19,10.19,0,0,0-1.41-5.41q-13.08-22.57-26-45.2a9.94,9.94,0,0,1-1.5-3c2.18-.46,9.47-.57,15-.24a9.83,9.83,0,0,1,1.8,2.75q8.55,14.91,17.09,29.84c.51.9,1.07,1.78,1.71,2.83a4.81,4.81,0,0,0,1.59-2.06q8.51-14.78,17-29.57c.71-1.24,1.44-2.47,2.12-3.62a100.32,100.32,0,0,1,15.31,0A5.83,5.83,0,0,1,1125,8.37q-9.21,16-18.47,32c-2.77,4.8-5.51,9.61-8.33,14.38a8.14,8.14,0,0,0-1.14,4.33q.06,16.49,0,33C1097.07,93,1097,94,1097,95.2Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M352.31.15A3.16,3.16,0,0,1,353.57,0h34a53.86,53.86,0,0,1,5.82.27A39.46,39.46,0,0,1,406.29,4a51.11,51.11,0,0,1,28.37,38.71A51.79,51.79,0,0,1,421,85.56,47.3,47.3,0,0,1,402.13,97.8a37,37,0,0,1-9.47,2c-1.52.11-3,.19-4.56.19H352.3c0-.28-.09-.49-.1-.71s0-.53,0-.8V1.63A4.89,4.89,0,0,1,352.31.15Zm24.56,22v55a5.62,5.62,0,0,0,.1.7h5.17a35.84,35.84,0,0,0,6.7-.61,25.2,25.2,0,0,0,12.12-6A24.71,24.71,0,0,0,408,60a34.31,34.31,0,0,0,1.44-11.48,30,30,0,0,0-2.58-11.39c-4-8.72-10.86-13.45-20.22-14.76a67.87,67.87,0,0,0-9.35-.23,2.34,2.34,0,0,0-.38.09Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M.12.09H37a54,54,0,0,1,6.73.32,29.42,29.42,0,0,1,15.6,6.46,27.25,27.25,0,0,1,8.31,12.41A36,36,0,0,1,69.5,31.64,36.67,36.67,0,0,1,68,42,23.57,23.57,0,0,1,53.81,57.43c-1.33.55-2.73.94-4.1,1.4l-.57.19a1.48,1.48,0,0,0,.46.91Q52.81,64.37,56,68.8L77.92,98.93c.19.27.37.56.54.81-.12.3-.34.22-.51.23s-.61,0-.92,0H48.2a3.15,3.15,0,0,1-.83-1.12Q38.55,84.44,29.75,70l-4.29-7c-.19-.32-.39-.64-.57-.92-.29,0-.29.19-.29.34V99.86a4,4,0,0,1-.5.09H.13a5.37,5.37,0,0,1-.11-.7V1.61A5.17,5.17,0,0,1,.12.09Zm24.63,44.6h3.91A28.51,28.51,0,0,0,33,44.45a16,16,0,0,0,6-2,10.24,10.24,0,0,0,4.94-7,15.71,15.71,0,0,0,.25-4.54,10.58,10.58,0,0,0-6.68-9.44,17.84,17.84,0,0,0-5.18-1.3A64.13,64.13,0,0,0,25.25,20c-.2,0-.4,0-.6.08,0,.25-.08.47-.09.69C24.44,25.86,24.54,43.49,24.75,44.69Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M126,.12a5.1,5.1,0,0,1,.67-.08h26a3,3,0,0,1,.62,1.29q5.31,14.7,10.6,29.42l24.34,67.53c.18.49.34,1,.53,1.55a1.41,1.41,0,0,1-.88.14H162.66L157,82.73c-.93-.15-33.29-.2-35-.07a2.23,2.23,0,0,0-.5,1.13q-2.43,7.42-4.84,14.86a3.18,3.18,0,0,1-.57,1.32H90.42a1.67,1.67,0,0,1-.3-.08,1,1,0,0,1,0-.25Q108,50.1,125.81.49A2.85,2.85,0,0,1,126,.12Zm24.37,62.65c-3.63-10.93-7.2-21.71-10.79-32.48,0-.1-.14-.17-.26-.32-.15.4-.28.74-.4,1.09Q136,39.88,133.1,48.69c-1.47,4.44-2.95,8.87-4.41,13.31-.08.24-.11.49-.17.74,1.13.18,13,.24,20.94.12C149.72,62.85,150,62.81,150.41,62.77Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M230.57,66.86c-.13,1.53,0,2.89-.06,4.26s0,2.74,0,4.11V95.78a38.12,38.12,0,0,1-.07,4.13l-.6.06c-4.2.11-22.65,0-23.82-.1a6.17,6.17,0,0,1-.09-.62V1.32A8.25,8.25,0,0,1,206,.14H243.5c1.68,0,3.36,0,5,.11a35.81,35.81,0,0,1,13.75,3.41A26.22,26.22,0,0,1,274.43,16a35.06,35.06,0,0,1,3.09,10.45,51.45,51.45,0,0,1,.42,8.77,40.2,40.2,0,0,1-2.47,13.29,26.62,26.62,0,0,1-18,16.63,39.37,39.37,0,0,1-7.84,1.44c-1.79.15-3.57.19-5.36.19h-13.7Zm0-21.08a5,5,0,0,0,.56.09c3.12,0,6.24,0,9.36-.06a14.65,14.65,0,0,0,4.58-.88,9.66,9.66,0,0,0,6.59-7.13,17.51,17.51,0,0,0,0-8.69A9.67,9.67,0,0,0,245.2,22a15.61,15.61,0,0,0-4-.86c-3.39-.27-6.77-.09-10.16-.12a2.81,2.81,0,0,0-.56.18V45.31a2.49,2.49,0,0,0,.12.47Z"
+								transform="translate(0)"
+							></path>
+							<path
+								class="logoFill"
+								d="M300.17,100a1.42,1.42,0,0,1-.12-.4V.77a5.32,5.32,0,0,1,.06-.56A2.12,2.12,0,0,1,301.35,0h23.21a4.07,4.07,0,0,1,.08.61c.13,3.23,0,98.14-.08,99.13a1.74,1.74,0,0,1-1.1.14H300.17Z"
+								transform="translate(0)"
+							></path>
+							<polygon
+								class="logoFill"
+								points="1372.11 28.81 1343.3 0.01 1300.87 42.44 1258.44 0.01 1258.43 0.02 1258.41 0.01 1187.21 71.21 1216.02 100.02 1258.43 57.61 1300.84 100.02 1300.87 99.98 1300.9 100.02 1372.11 28.81"
+							></polygon></svg></a
+				></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <div class="et_pb_row footer-image-outer">
+	<div
+		class="et_pb_column et_pb_column_4_4 et_pb_column_19 et_pb_css_mix_blend_mode_passthrough et-last-child"
+	>
+		<div class="et_pb_module et_pb_image footer-image-inner">
+			<span class="et_pb_image_wrap"
+				><img width="3188" height="913"
+					loading="lazy"
+					width="3188"
+					height="913"
+					src="https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses.png"
+					alt=""
+					title="sectionBackground_houses"
+					srcset="
+						https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses.png          3188w,
+						https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-1280x367.png 1280w,
+						https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-980x281.png   980w,
+						https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-480x137.png   480w
+					"
+					sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 3188px, 100vw"
+					class="wp-image-25560"
+			 srcset="https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses.png 3188w, https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-1280x367.png 1280w, https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-980x281.png 980w, https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-480x137.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 3188px, 100vw" /></span>
+		</div>
+	</div>
+</div> --!>
+
+<!-- <div class="et_pb_row et_pb_row_6_tb_footer">
+	<div
+		class="et_pb_column et_pb_column_4_4 et_pb_column_8_tb_footer et_pb_css_mix_blend_mode_passthrough et-last-child"
+	>
+		<div
+			class="et_pb_module et_pb_text et_pb_text_18_tb_footer et_clickable et_pb_text_align_center et_pb_bg_layout_light"
+			data-trigger-click="contactUsNow"
+		>
+			<div class="et_pb_text_inner"><p>Quick enquiry</p> </div>
+		</div>
+	</div>
+</div> !-->
+
+<!-- <div class="et_pb_row et_pb_row_8_tb_footer">
+	<div
+		class="et_pb_column et_pb_column_4_4 et_pb_column_10_tb_footer et_pb_css_mix_blend_mode_passthrough et-last-child"
+	>
+		<div class="et_pb_module et_pb_image et_pb_image_0_tb_footer">
+			<span class="et_pb_image_wrap"
+				><img width="3188" height="913"
+					loading="lazy"
+					width="3188"
+					height="913"
+					src="https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses.png"
+					alt=""
+					title="sectionBackground_houses"
+					srcset="
+						https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses.png          3188w,
+						https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-1280x367.png 1280w,
+						https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-980x281.png   980w,
+						https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-480x137.png   480w
+					"
+					sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 3188px, 100vw"
+					class="wp-image-25560"
+			 srcset="https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses.png 3188w, https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-1280x367.png 1280w, https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-980x281.png 980w, https://ortussecuredfinance.co.uk/wp-content/uploads/2021/09/sectionBackground_houses-480x137.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 3188px, 100vw" /></span>
+		</div>
+	</div>
+</div> --!>
+</div>
+			</div>
+				
+				
+			</div><div id="hidden" class="et_pb_section et_pb_section_5_tb_footer hidden et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_2_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2_tb_footer  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Contact us today</h2></div>
+			</div><div class="et_pb_with_border et_pb_module et_pb_divider et_pb_divider_1_tb_footer et_pb_divider_position_ et_pb_space"><div class="et_pb_divider_internal"></div></div>
+			<div id="et_pb_contact_form_1" class="et_pb_module et_pb_contact_form_1_tb_footer et_pb_contact_form_container clearfix" data-form_unique_num="1" data-form_unique_id="">
+				
+				
+				
+				
+				
+				<div class="et-pb-contact-message"></div>
+				
+				<div class="et_pb_contact">
+					<form class="et_pb_contact_form clearfix" method="post" action="https://ortussecuredfinance.co.uk/wp-content/uploads/2024/02/cropped-Ortus-favicon-32x32.png">
+						<p class="et_pb_contact_field et_pb_contact_field_10_tb_footer et_pb_contact_field_half" data-id="name" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_name_1" class="et_pb_contact_form_label">Broker Name</label>
+				<input type="text" id="et_pb_contact_name_1" class="input" value="" name="et_pb_contact_name_1" data-required_mark="required" data-field_type="input" data-original_id="name" placeholder="Broker Name">
+			</p><p class="et_pb_contact_field et_pb_contact_field_11_tb_footer et_pb_contact_field_half et_pb_contact_field_last" data-id="company" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_company_1" class="et_pb_contact_form_label">Broker Company</label>
+				<input type="text" id="et_pb_contact_company_1" class="input" value="" name="et_pb_contact_company_1" data-required_mark="required" data-field_type="input" data-original_id="company" placeholder="Broker Company" pattern="[0-9\s\-]*" title="Only numbers allowed.">
+			</p><p class="et_pb_contact_field et_pb_contact_field_12_tb_footer et_pb_contact_field_half" data-id="email" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_email_1" class="et_pb_contact_form_label">Broker Email </label>
+				<input type="text" id="et_pb_contact_email_1" class="input" value="" name="et_pb_contact_email_1" data-required_mark="required" data-field_type="input" data-original_id="email" placeholder="Broker Email ">
+			</p><p class="et_pb_contact_field et_pb_contact_field_13_tb_footer et_pb_contact_field_half et_pb_contact_field_last" data-id="number" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_number_1" class="et_pb_contact_form_label">Broker Contact Number </label>
+				<input type="text" id="et_pb_contact_number_1" class="input" value="" name="et_pb_contact_number_1" data-required_mark="required" data-field_type="input" data-original_id="number" placeholder="Broker Contact Number ">
+			</p><p class="et_pb_contact_field et_pb_contact_field_14_tb_footer et_pb_contact_field_last" data-id="address" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_address_1" class="et_pb_contact_form_label">Property Address</label>
+				<input type="text" id="et_pb_contact_address_1" class="input" value="" name="et_pb_contact_address_1" data-required_mark="required" data-field_type="input" data-original_id="address" placeholder="Property Address">
+			</p><p class="et_pb_contact_field et_pb_contact_field_15_tb_footer et_pb_contact_field_half" data-id="type" data-type="select">
+				
+				
+				
+				
+				<label for="et_pb_contact_type_1" class="et_pb_contact_form_label">Property Type</label>
+				<select id="et_pb_contact_type_1" class="et_pb_contact_select input" name="et_pb_contact_type_1" data-required_mark="required" data-field_type="select" data-original_id="type">
+						<option value="">Property Type</option><option value="Commercial">Commercial</option><option value="Residential">Residential</option><option value=""></option>
+					</select>
+			</p><p class="et_pb_contact_field et_pb_contact_field_16_tb_footer et_pb_contact_field_half et_pb_contact_field_last" data-id="value" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_value_1" class="et_pb_contact_form_label">Property Value</label>
+				<input type="text" id="et_pb_contact_value_1" class="input" value="" name="et_pb_contact_value_1" data-required_mark="required" data-field_type="input" data-original_id="value" placeholder="Property Value">
+			</p><p class="et_pb_contact_field et_pb_contact_field_17_tb_footer et_pb_contact_field_half" data-id="loan" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_loan_1" class="et_pb_contact_form_label">Property Loan Required</label>
+				<input type="text" id="et_pb_contact_loan_1" class="input" value="" name="et_pb_contact_loan_1" data-required_mark="required" data-field_type="input" data-original_id="loan" placeholder="Property Loan Required">
+			</p><p class="et_pb_contact_field et_pb_contact_field_18_tb_footer et_pb_contact_field_half et_pb_contact_field_last" data-id="term" data-type="input">
+				
+				
+				
+				
+				<label for="et_pb_contact_term_1" class="et_pb_contact_form_label">Term Loan Required</label>
+				<input type="text" id="et_pb_contact_term_1" class="input" value="" name="et_pb_contact_term_1" data-required_mark="required" data-field_type="input" data-original_id="term" placeholder="Term Loan Required">
+			</p><p class="et_pb_contact_field et_pb_contact_field_19_tb_footer et_pb_contact_field_half" data-id="broker_type" data-type="select">
+				
+				
+				
+				
+				<label for="et_pb_contact_broker_type_1" class="et_pb_contact_form_label">Type:</label>
+				<select id="et_pb_contact_broker_type_1" class="et_pb_contact_select input" name="et_pb_contact_broker_type_1" data-required_mark="required" data-field_type="select" data-original_id="broker_type">
+						<option value="">Type:</option><option value="Broker">Broker</option><option value="Direct Client">Direct Client</option>
+					</select>
+			</p>
+						<input type="hidden" value="et_contact_proccess" name="et_pb_contactform_submit_1"/>
+						<div class="et_contact_bottom_container">
+							
+							<button type="submit" name="et_builder_submit_button" class="et_pb_contact_submit et_pb_button">Submit</button>
+						</div>
+						<input type="hidden" id="_wpnonce-et-pb-contact-form-submitted-1" name="_wpnonce-et-pb-contact-form-submitted-1" value="5a53fdc72f" /><input type="hidden" name="_wp_http_referer" value="/wp-content/uploads/2024/02/cropped-Ortus-favicon-32x32.png" />
+					</form>
+				</div>
+			</div>
+			
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</footer>
+		</div>
+
+			
+		</div>
+		</div>
+
+			<script>
+(function(g,e,o,t,a,r,ge,tl,y){
+t=g.getElementsByTagName(e)[0];y=g.createElement(e);
+y.async=true;y.src='https://g1584674683.co/gc?refurl='+g.referrer+'&id=-MnjSX1soDQsxHxIqq_W&winurl='+encodeURIComponent(window.location);
+t.parentNode.insertBefore(y,t);
+})(document,'script','head');
+</script>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!--googleoff: all--><div id="cookie-law-info-bar" data-nosnippet="true"><span><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent. To view our Cookie Policy, <a href="/cookie-policy/">click here.</a></div><div class="cli-bar-btn_container"><a role='button' class="medium cli-plugin-button cli-plugin-main-button cli_settings_button" style="margin:0px 5px 0px 0px">Cookie Settings</a><a id="wt-cli-accept-all-btn" role='button' data-cli_action="accept_all" class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button">Accept All</a></div></div></span></div><div id="cookie-law-info-again" data-nosnippet="true"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+	<div class="cli-modal-content cli-bar-popup">
+		  <button type="button" class="cli-modal-close" id="cliModalClose">
+			<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+			<span class="wt-cli-sr-only">Close</span>
+		  </button>
+		  <div class="cli-modal-body">
+			<div class="cli-container-fluid cli-tab-container">
+	<div class="cli-row">
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+			<div class="cli-privacy-overview">
+				<h4>Privacy Overview</h4>				<div class="cli-privacy-content">
+					<div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+				</div>
+				<a class="cli-privacy-readmore" aria-label="Show more" role="button" data-readmore-text="Show more" data-readless-text="Show less"></a>			</div>
+		</div>
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+												<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+								Necessary							</a>
+															<div class="wt-cli-necessary-checkbox">
+									<input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked"  />
+									<label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+								</div>
+								<span class="cli-necessary-caption">Always Enabled</span>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="necessary">
+								<div class="wt-cli-cookie-description">
+									Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+<table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duration</th><th class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-analytics</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-functional</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-necessary</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-others</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-performance</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">viewed_cookie_policy</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.</td></tr></tbody></table>								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="functional" data-toggle="cli-toggle-tab">
+								Functional							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-functional" class="cli-user-preference-checkbox"  data-id="checkbox-functional" />
+									<label for="wt-cli-checkbox-functional" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Functional</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="functional">
+								<div class="wt-cli-cookie-description">
+									Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="performance" data-toggle="cli-toggle-tab">
+								Performance							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-performance" class="cli-user-preference-checkbox"  data-id="checkbox-performance" />
+									<label for="wt-cli-checkbox-performance" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Performance</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="performance">
+								<div class="wt-cli-cookie-description">
+									Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab">
+								Analytics							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-analytics" class="cli-user-preference-checkbox"  data-id="checkbox-analytics" />
+									<label for="wt-cli-checkbox-analytics" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Analytics</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="analytics">
+								<div class="wt-cli-cookie-description">
+									Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">
+								Advertisement							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-advertisement" class="cli-user-preference-checkbox"  data-id="checkbox-advertisement" />
+									<label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Advertisement</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="advertisement">
+								<div class="wt-cli-cookie-description">
+									Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="others" data-toggle="cli-toggle-tab">
+								Others							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-others" class="cli-user-preference-checkbox"  data-id="checkbox-others" />
+									<label for="wt-cli-checkbox-others" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Others</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="others">
+								<div class="wt-cli-cookie-description">
+									Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+								</div>
+							</div>
+						</div>
+					</div>
+										</div>
+	</div>
+</div>
+		  </div>
+		  <div class="cli-modal-footer">
+			<div class="wt-cli-element cli-container-fluid cli-tab-container">
+				<div class="cli-row">
+					<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+						<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+						
+															<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE &amp; ACCEPT</a>
+													</div>
+												<div class="wt-cli-ckyes-footer-section">
+							<div class="wt-cli-ckyes-brand-logo">Powered by <a href="https://www.cookieyes.com/"><img src="https://ortussecuredfinance.co.uk/wp-content/plugins/cookie-law-info/legacy/public/images/logo-cookieyes.svg" alt="CookieYes Logo"></a></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--><script>
+(function(g,e,o,t,a,r,ge,tl,y){
+s=function(){var def='geotargetlygeocontent1636105068805_default',len=g.getElementsByClassName(def).length;
+if(len>0){for(i=0;i<len;i++){g.getElementsByClassName(def)[i].style.display='inline';}}};
+t=g.getElementsByTagName(e)[0];y=g.createElement(e);
+y.async=true;y.src='https://g1584674682.co/gc?refurl='+g.referrer+'&id=-MnjSX1soDQsxHxIqq_W&winurl='+encodeURIComponent(window.location);
+t.parentNode.insertBefore(y,t);y.onerror=function(){s()};
+})(document,'script');
+</script>
+<noscript><style>.geotargetlygeocontent1636105068805_default{display:block !important}</style></noscript>
+		<script type="application/javascript">
+			(function() {
+				var file     = ["https:\/\/ortussecuredfinance.co.uk\/wp-content\/et-cache\/notfound\/et-divi-dynamic-tb-25115-tb-27002-late.css"];
+				var handle   = document.getElementById('divi-style-css');
+				var location = handle.parentNode;
+
+				if (0===document.querySelectorAll('link[href="' + file + '"]').length) {
+					var link  = document.createElement('link');
+					link.rel  = 'stylesheet';
+					link.id   = 'et-dynamic-late-css';
+					link.href = file;
+
+					location.insertBefore(link, handle.nextSibling);
+				}
+			})();
+		</script>
+		<style id="et-builder-googlefonts-inline">/* Original: https://fonts.googleapis.com/css?family=Lexend:100,200,300,regular,500,600,700,800,900|Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic|Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;subset=latin,latin-ext,vietnamese,cyrillic,cyrillic-ext,thai,devanagari,greek,greek-ext&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Kanit';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKV-Go6G5tXcraQI2GAdQ.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI82hVaQ.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI6miVaQ.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKX-Go6G5tXcraQGwU.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI_GjVaQ.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI92kVaQ.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI7mlVaQ.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI6WmVaQ.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI4GnVaQ.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKX-Go6G5tXcr72GwU.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr5aOiWg.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr4-OSWg.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKZ-Go6G5tXcoaS.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr5mOCWg.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr5KPyWg.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr4uPiWg.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr4yPSWg.ttf) format('truetype');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr4WPCWg.ttf) format('truetype');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX_LA.ttf) format('truetype');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sW_LA.ttf) format('truetype');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC2UW_LA.ttf) format('truetype');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LA.ttf) format('truetype');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LA.ttf) format('truetype');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC-UR_LA.ttf) format('truetype');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LA.ttf) format('truetype');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LA.ttf) format('truetype');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LA.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDcf6Vc.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 200;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLce6Vc.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QGke6Vc.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDce6Vc.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QAUe6Vc.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QOkZ6Vc.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QNAZ6Vc.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLcZ6Vc.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QJ4Z6Vc.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9At9d.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 200;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9A99d.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyCjA99d.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyDPA99d.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9d.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9BN9d.ttf) format('truetype');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyBUBN9d.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Kanit';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKV-Go6G5tXcraQI2GAdg&skey=af6ebcb691038333&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKS-Go6G5tXcraQI82hVac&skey=5be4818c7c5589cd&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKS-Go6G5tXcraQI6miVac&skey=26ce3b98d24c6e21&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKX-Go6G5tXcraQGwY&skey=336f203e2505743&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKS-Go6G5tXcraQI_GjVac&skey=dfeb335f5dc0c656&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKS-Go6G5tXcraQI92kVac&skey=c9bb313d836b6604&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKS-Go6G5tXcraQI7mlVac&skey=639445fe76360cd9&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKS-Go6G5tXcraQI6WmVac&skey=54e5861002b7cf3e&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKS-Go6G5tXcraQI4GnVac&skey=7947e1141cd9170&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKX-Go6G5tXcr72GwY&skey=1fafa5416853f7e5&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKU-Go6G5tXcr5aOiWj&skey=4f9bb3526a17f8a6&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKU-Go6G5tXcr4-OSWj&skey=14ca640360d8623e&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKZ-Go6G5tXcoaR&skey=f700248af71fb487&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKU-Go6G5tXcr5mOCWj&skey=6cd9965664507be9&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKU-Go6G5tXcr5KPyWj&skey=37a1924777d7d1eb&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKU-Go6G5tXcr4uPiWj&skey=5c0b966606f30209&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKU-Go6G5tXcr4yPSWj&skey=33753599227b342&v=v17) format('woff');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=nKKU-Go6G5tXcr4WPCWj&skey=d7003f9a8964e1d2&v=v17) format('woff');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX_LM&skey=77476a9438b362c8&v=v26) format('woff');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=wlptgwvFAVdoq2_F94zlCfv0bz1WC7sW_LM&skey=77476a9438b362c8&v=v26) format('woff');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=wlptgwvFAVdoq2_F94zlCfv0bz1WC2UW_LM&skey=77476a9438b362c8&v=v26) format('woff');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LM&skey=77476a9438b362c8&v=v26) format('woff');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LM&skey=77476a9438b362c8&v=v26) format('woff');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=wlptgwvFAVdoq2_F94zlCfv0bz1WC-UR_LM&skey=77476a9438b362c8&v=v26) format('woff');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LM&skey=77476a9438b362c8&v=v26) format('woff');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LM&skey=77476a9438b362c8&v=v26) format('woff');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LM&skey=77476a9438b362c8&v=v26) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDcf6VQ&skey=10db4434b0359efc&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 200;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLce6VQ&skey=10db4434b0359efc&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QGke6VQ&skey=10db4434b0359efc&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDce6VQ&skey=10db4434b0359efc&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QAUe6VQ&skey=10db4434b0359efc&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QOkZ6VQ&skey=10db4434b0359efc&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QNAZ6VQ&skey=10db4434b0359efc&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLcZ6VQ&skey=10db4434b0359efc&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QJ4Z6VQ&skey=10db4434b0359efc&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9At9e&skey=2b960fe17823056f&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 200;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9A99e&skey=2b960fe17823056f&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyCjA99e&skey=2b960fe17823056f&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99e&skey=2b960fe17823056f&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyDPA99e&skey=2b960fe17823056f&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9e&skey=2b960fe17823056f&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9e&skey=2b960fe17823056f&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9BN9e&skey=2b960fe17823056f&v=v42) format('woff');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyBUBN9e&skey=2b960fe17823056f&v=v42) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Kanit';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKV-Go6G5tXcraQI2GAcA.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI82hVaE.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI6miVaE.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKX-Go6G5tXcraQGwA.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI_GjVaE.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI92kVaE.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI7mlVaE.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI6WmVaE.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKS-Go6G5tXcraQI4GnVaE.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKX-Go6G5tXcr72GwA.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr5aOiWl.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr4-OSWl.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKZ-Go6G5tXcoaX.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr5mOCWl.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr5KPyWl.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr4uPiWl.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr4yPSWl.woff2) format('woff2');}@font-face {font-family: 'Kanit';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/kanit/v17/nKKU-Go6G5tXcr4WPCWl.woff2) format('woff2');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX_LU.woff2) format('woff2');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sW_LU.woff2) format('woff2');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC2UW_LU.woff2) format('woff2');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LU.woff2) format('woff2');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LU.woff2) format('woff2');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC-UR_LU.woff2) format('woff2');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LU.woff2) format('woff2');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LU.woff2) format('woff2');}@font-face {font-family: 'Lexend';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LU.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w7.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDcf6VI.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 200;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLce6VI.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QGke6VI.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDce6VI.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QAUe6VI.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QOkZ6VI.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QNAZ6VI.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLcZ6VI.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: italic;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QJ4Z6VI.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9At9Y.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 200;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9A99Y.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyCjA99Y.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99Y.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyDPA99Y.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9Y.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9Y.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9BN9Y.woff2) format('woff2');}@font-face {font-family: 'Noto Sans';font-style: normal;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyBUBN9Y.woff2) format('woff2');}</style><script>
+jQuery(function($){
+$(document).ready(function(){
+$('.et_pb_team_member .et_pb_member_social_links a').attr('target',"_blank");
+});
+});
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7WKZKR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https://ortussecuredfinance.co.uk/wp-admin/admin-ajax.php","images_uri":"https://ortussecuredfinance.co.uk/wp-content/themes/Divi/images","builder_images_uri":"https://ortussecuredfinance.co.uk/wp-content/themes/Divi/includes/builder/images","et_frontend_nonce":"4fa8913aa9","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"60c8eb89c3","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"29237","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":"https://ortussecuredfinance.co.uk/wp-content/themes/Divi/includes/builder/frontend-builder/assets/vendors","accent_color":"#7EBEC5","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+//# sourceURL=divi-custom-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.6" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-content/themes/Divi/core/admin/js/es6-promise.auto.min.js?ver=4.27.6" id="es6-promise-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LfslT0dAAAAAEMEq8l9VxDyN9JU9td1Kkv787cY&amp;ver=4.27.6" id="et-recaptcha-v3-js"></script>
+<script type="text/javascript" id="et-core-api-spam-recaptcha-js-extra">
+/* <![CDATA[ */
+var et_core_api_spam_recaptcha = {"site_key":"6LfslT0dAAAAAEMEq8l9VxDyN9JU9td1Kkv787cY","page_action":{"action":"stephen_davison"}};
+//# sourceURL=et-core-api-spam-recaptcha-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-content/themes/Divi/core/admin/js/recaptcha.js?ver=4.27.6" id="et-core-api-spam-recaptcha-js"></script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.6" id="fitvids-js"></script>
+<script type="text/javascript" id="gforms_recaptcha_recaptcha-js-extra">
+/* <![CDATA[ */
+var gforms_recaptcha_recaptcha_strings = {"site_key":"6LfslT0dAAAAAEMEq8l9VxDyN9JU9td1Kkv787cY","ajaxurl":"https://ortussecuredfinance.co.uk/wp-admin/admin-ajax.php","nonce":"ba20365b9d"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LfslT0dAAAAAEMEq8l9VxDyN9JU9td1Kkv787cY&amp;ver=1.4.0" id="gforms_recaptcha_recaptcha-js"></script>
+<script type="text/javascript" id="gforms_recaptcha_recaptcha-js-after">
+/* <![CDATA[ */
+(function($){grecaptcha.ready(function(){$('.grecaptcha-badge').css('visibility','hidden');});})(jQuery);
+//# sourceURL=gforms_recaptcha_recaptcha-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.6" id="et-core-common-js"></script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2026-04-17 10:35:12+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_GB"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+//# sourceURL=wp-a11y-js-translations
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.1" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"GBP"},"base_url":"https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"621ef45aeff753eca78982db0dca3680","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.10.1" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.1" id="gform_placeholder-js"></script>
+<script type="text/javascript" defer='defer' src="https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=3f278756f0a3032bed328ff6a9f6c01d" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=4f8b3915c1c1e1a6800825abd64b03cb" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"621ef45aeff753eca78982db0dca3680"},"ajax":{"ajaxurl":"https://ortussecuredfinance.co.uk/wp-admin/admin-ajax.php","ajax_submission_nonce":"7023691222","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"3f5260f0a5"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://ortussecuredfinance.co.uk/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=25ebbbc2c63c6c71b95c9eb867a9072b" id="gform_gravityforms_theme-js"></script>
+<script type="text/javascript" src="https://ortussecuredfinance.co.uk/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=1.4.0" id="gforms_recaptcha_frontend-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 7) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "7", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_7" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_7";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_7" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 7, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+	
+			<span class="et_pb_scroll_top et-pb-icon"></span>
+	</body>
+</html>
