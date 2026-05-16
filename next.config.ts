@@ -19,20 +19,20 @@ const nextConfig: NextConfig = {
   },
   images: {
     localPatterns: [
-      {
-        pathname: '/api/media/file/**',
-      },
+      { pathname: '/api/media/file/**', search: '' },
+      { pathname: '/api/media/file/**', search: '*' },
     ],
     qualities: [100],
     remotePatterns: [
-      ...[NEXT_PUBLIC_SERVER_URL /* 'https://example.com' */].map((item) => {
+      ...[NEXT_PUBLIC_SERVER_URL].map((item) => {
         const url = new URL(item)
-
         return {
           hostname: url.hostname,
           protocol: url.protocol.replace(':', '') as 'http' | 'https',
         }
       }),
+      // Vercel Blob storage host (in case media URLs resolve to absolute Blob URLs)
+      { hostname: '*.public.blob.vercel-storage.com', protocol: 'https' as const },
     ],
   },
   webpack: (webpackConfig) => {
