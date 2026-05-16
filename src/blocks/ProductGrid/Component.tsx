@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getPayload } from 'payload'
+import { getPayload, type Where } from 'payload'
 import configPromise from '@payload-config'
 import { ArrowUpRight } from 'lucide-react'
 
@@ -17,7 +17,7 @@ export const ProductGridBlock: React.FC<Props> = async (props) => {
   if (source === 'manual' && manualProducts?.length) {
     products = manualProducts.filter((p): p is Product => typeof p === 'object' && p !== null)
   } else {
-    const where =
+    const where: Where =
       source === 'residential'
         ? { category: { equals: 'residential' } }
         : source === 'commercial'
