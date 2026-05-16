@@ -6,34 +6,26 @@ import type { Header as HeaderType } from '@/payload-types'
 
 import { CMSLink } from '@/components/Link'
 import Link from 'next/link'
-import { SearchIcon } from 'lucide-react'
 
 export const HeaderNav: React.FC<{ data: HeaderType }> = ({ data }) => {
   const navItems = data?.navItems || []
 
   return (
-    <nav className="flex items-center gap-1 md:gap-2">
-      <ul className="hidden md:flex items-center gap-6 mr-4">
+    <nav className="flex items-center gap-2 md:gap-6">
+      <ul className="hidden md:flex items-center gap-8">
         {navItems.map(({ link }, i) => (
           <li key={i}>
             <CMSLink
               {...link}
               appearance="link"
-              className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
+              className="text-[13px] font-medium tracking-wide text-foreground/80 transition-colors hover:text-foreground hover:no-underline"
             />
           </li>
         ))}
       </ul>
       <Link
-        href="/search"
-        className="hidden sm:inline-flex items-center justify-center rounded-full p-2 text-foreground/70 transition-colors hover:bg-muted hover:text-foreground"
-      >
-        <span className="sr-only">Search</span>
-        <SearchIcon className="w-4 h-4" />
-      </Link>
-      <Link
         href="/contact"
-        className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-brand"
+        className="inline-flex h-10 items-center justify-center border border-navy bg-transparent px-5 text-[12px] font-medium uppercase tracking-[0.18em] text-foreground transition-colors hover:bg-navy hover:text-navy-foreground"
       >
         Enquire
       </Link>

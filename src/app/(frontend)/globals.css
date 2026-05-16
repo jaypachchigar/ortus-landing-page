@@ -11,12 +11,7 @@
 @custom-variant 2xl (@media (width >= theme(--breakpoint-2xl)));
 
 @layer base {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     font-weight: unset;
     font-size: unset;
   }
@@ -43,131 +38,97 @@
   --breakpoint-lg: 64rem;
   --breakpoint-xl: 80rem;
   --breakpoint-2xl: 86rem;
-  --font-sans: var(--font-sans), system-ui, sans-serif;
-  --font-serif: var(--font-serif), Georgia, serif;
-  --font-display: var(--font-serif), Georgia, serif;
+  --font-sans: var(--font-sans), 'Inter', system-ui, sans-serif;
+  --font-serif: var(--font-serif), 'Fraunces', 'Source Serif Pro', Georgia, serif;
+  --font-display: var(--font-serif), 'Fraunces', Georgia, serif;
 }
 
 @layer utilities {
   .container {
     width: 100%;
     margin-inline: auto;
-    padding-inline: 1rem;
+    padding-inline: 1.5rem;
   }
+  @variant sm { .container { max-width: var(--breakpoint-sm); } }
+  @variant md { .container { max-width: var(--breakpoint-md); padding-inline: 2rem; } }
+  @variant lg { .container { max-width: var(--breakpoint-lg); padding-inline: 2.5rem; } }
+  @variant xl { .container { max-width: var(--breakpoint-xl); padding-inline: 3rem; } }
+  @variant 2xl { .container { max-width: var(--breakpoint-2xl); } }
 
-  @variant sm {
-    .container {
-      max-width: var(--breakpoint-sm);
-    }
-  }
-
-  @variant md {
-    .container {
-      max-width: var(--breakpoint-md);
-      padding-inline: 2rem;
-    }
-  }
-
-  @variant lg {
-    .container {
-      max-width: var(--breakpoint-lg);
-    }
-  }
-
-  @variant xl {
-    .container {
-      max-width: var(--breakpoint-xl);
-    }
-  }
-
-  @variant 2xl {
-    .container {
-      max-width: var(--breakpoint-2xl);
-    }
+  .hr-rule {
+    height: 1px;
+    background-color: var(--brand);
+    width: 3rem;
   }
 }
 
+/* ─────────────────────────────────────────────────────────────
+   ORTUS — EDITORIAL INSTITUTIONAL REBRAND
+   Palette: deep navy + cream + brass accent.
+   Reference: Cain International / Brookfield aesthetic.
+   ───────────────────────────────────────────────────────────── */
 :root {
-  /* Ortus brand: bright trustworthy blue + deep navy */
-  --brand: oklch(64% 0.14 232deg); /* #1E9BD7 — Ortus blue */
-  --brand-foreground: oklch(99% 0 0deg);
-  --navy: oklch(22% 0.06 250deg); /* #0E2A47 — deep navy from logo arrow */
-  --navy-foreground: oklch(99% 0 0deg);
+  /* Raw brand colours */
+  --ortus-navy: oklch(20% 0.04 252deg);     /* #0E1B2C  ink navy */
+  --ortus-navy-deep: oklch(15% 0.04 252deg);/* #08111C  deepest */
+  --ortus-cream: oklch(96% 0.02 80deg);     /* #F8F4ED  warm cream */
+  --ortus-cream-deep: oklch(92% 0.025 80deg);/* #EFE6D4  card cream */
+  --ortus-brass: oklch(63% 0.10 75deg);     /* #B08A4A  metallic brass */
+  --ortus-brass-soft: oklch(75% 0.08 80deg);/* lighter brass for tints */
+  --ortus-ink: oklch(30% 0.02 252deg);      /* mid grey ink for body */
 
-  --background: oklch(99% 0.003 90deg); /* warm off-white */
-  --foreground: oklch(22% 0.06 250deg); /* navy text */
-  --card: oklch(100% 0 0deg);
-  --card-foreground: oklch(22% 0.06 250deg);
-  --popover: oklch(100% 0 0deg);
-  --popover-foreground: oklch(22% 0.06 250deg);
-  --primary: oklch(22% 0.06 250deg); /* navy primary buttons */
-  --primary-foreground: oklch(99% 0 0deg);
-  --secondary: oklch(96% 0.008 240deg);
-  --secondary-foreground: oklch(22% 0.06 250deg);
-  --muted: oklch(96% 0.005 90deg);
-  --muted-foreground: oklch(45% 0.02 250deg);
-  --accent: oklch(64% 0.14 232deg); /* ortus blue accent */
-  --accent-foreground: oklch(99% 0 0deg);
-  --destructive: oklch(57.7% 0.245 27.325deg);
-  --destructive-foreground: oklch(99% 0 0deg);
-  --border: oklch(90% 0.01 240deg);
-  --input: oklch(92% 0.005 240deg);
-  --ring: oklch(64% 0.14 232deg);
-  --chart-1: oklch(64.6% 0.222 41.116deg);
-  --chart-2: oklch(60% 0.118 184.704deg);
-  --chart-3: oklch(39.8% 0.07 227.392deg);
-  --chart-4: oklch(82.8% 0.189 84.429deg);
-  --chart-5: oklch(76.9% 0.188 70.08deg);
-  --radius: 0.625rem;
-  --sidebar: oklch(98.5% 0 0deg);
-  --sidebar-foreground: oklch(14.5% 0 0deg);
-  --sidebar-primary: oklch(20.5% 0 0deg);
-  --sidebar-primary-foreground: oklch(98.5% 0 0deg);
-  --sidebar-accent: oklch(97% 0 0deg);
-  --sidebar-accent-foreground: oklch(20.5% 0 0deg);
-  --sidebar-border: oklch(92.2% 0 0deg);
-  --sidebar-ring: oklch(70.8% 0 0deg);
-  --success: oklch(78% 0.08 200deg);
-  --warning: oklch(89% 0.1 75deg);
-  --error: oklch(75% 0.15 25deg);
+  /* Semantic light tokens */
+  --background: var(--ortus-cream);
+  --foreground: var(--ortus-navy);
+  --card: oklch(99% 0.005 80deg);           /* near-white card */
+  --card-foreground: var(--ortus-navy);
+  --popover: var(--card);
+  --popover-foreground: var(--ortus-navy);
+  --primary: var(--ortus-navy);
+  --primary-foreground: var(--ortus-cream);
+  --secondary: var(--ortus-cream-deep);
+  --secondary-foreground: var(--ortus-navy);
+  --muted: var(--ortus-cream-deep);
+  --muted-foreground: oklch(45% 0.015 252deg);
+  --accent: var(--ortus-brass);
+  --accent-foreground: oklch(100% 0 0deg);
+  --brand: var(--ortus-brass);
+  --brand-foreground: oklch(100% 0 0deg);
+  --navy: var(--ortus-navy);
+  --navy-foreground: var(--ortus-cream);
+  --destructive: oklch(57% 0.22 27deg);
+  --destructive-foreground: oklch(100% 0 0deg);
+  --border: oklch(88% 0.015 80deg);         /* warm tinted border */
+  --input: oklch(88% 0.015 80deg);
+  --ring: var(--ortus-brass);
+  --radius: 0.25rem;                        /* tighter, more editorial */
+  --success: oklch(70% 0.13 150deg);
+  --warning: oklch(75% 0.15 75deg);
+  --error: oklch(57% 0.22 27deg);
 }
 
 [data-theme='dark'] {
-  --background: oklch(18% 0.04 250deg); /* deep navy bg */
-  --foreground: oklch(98% 0.005 90deg);
-  --card: oklch(22% 0.06 250deg);
-  --card-foreground: oklch(98% 0.005 90deg);
-  --popover: oklch(18% 0.04 250deg);
-  --popover-foreground: oklch(98% 0.005 90deg);
-  --primary: oklch(64% 0.14 232deg);
-  --primary-foreground: oklch(99% 0 0deg);
-  --secondary: oklch(28% 0.05 250deg);
-  --secondary-foreground: oklch(98% 0.005 90deg);
-  --muted: oklch(26% 0.04 250deg);
-  --muted-foreground: oklch(72% 0.02 240deg);
-  --accent: oklch(64% 0.14 232deg);
-  --accent-foreground: oklch(99% 0 0deg);
-  --destructive: oklch(48% 0.18 25deg);
-  --destructive-foreground: oklch(99% 0 0deg);
-  --border: oklch(30% 0.04 250deg);
-  --input: oklch(30% 0.04 250deg);
-  --ring: oklch(64% 0.14 232deg);
-  --chart-1: oklch(48.8% 0.243 264.376deg);
-  --chart-2: oklch(69.6% 0.17 162.48deg);
-  --chart-3: oklch(76.9% 0.188 70.08deg);
-  --chart-4: oklch(62.7% 0.265 303.9deg);
-  --chart-5: oklch(64.5% 0.246 16.439deg);
-  --sidebar: oklch(20.5% 0 0deg);
-  --sidebar-foreground: oklch(98.5% 0 0deg);
-  --sidebar-primary: oklch(48.8% 0.243 264.376deg);
-  --sidebar-primary-foreground: oklch(98.5% 0 0deg);
-  --sidebar-accent: oklch(26.9% 0 0deg);
-  --sidebar-accent-foreground: oklch(98.5% 0 0deg);
-  --sidebar-border: oklch(26.9% 0 0deg);
-  --sidebar-ring: oklch(43.9% 0 0deg);
-  --success: oklch(28% 0.1 200deg);
-  --warning: oklch(35% 0.08 70deg);
-  --error: oklch(45% 0.1 25deg);
+  --background: var(--ortus-navy);
+  --foreground: var(--ortus-cream);
+  --card: var(--ortus-navy-deep);
+  --card-foreground: var(--ortus-cream);
+  --popover: var(--ortus-navy-deep);
+  --popover-foreground: var(--ortus-cream);
+  --primary: var(--ortus-cream);
+  --primary-foreground: var(--ortus-navy);
+  --secondary: oklch(25% 0.04 252deg);
+  --secondary-foreground: var(--ortus-cream);
+  --muted: oklch(25% 0.04 252deg);
+  --muted-foreground: oklch(70% 0.02 80deg);
+  --accent: var(--ortus-brass);
+  --accent-foreground: oklch(100% 0 0deg);
+  --brand: var(--ortus-brass);
+  --brand-foreground: oklch(100% 0 0deg);
+  --navy: var(--ortus-navy);
+  --navy-foreground: var(--ortus-cream);
+  --border: oklch(28% 0.03 252deg);
+  --input: oklch(28% 0.03 252deg);
+  --ring: var(--ortus-brass);
 }
 
 @theme inline {
@@ -175,6 +136,8 @@
   --color-brand-foreground: var(--brand-foreground);
   --color-navy: var(--navy);
   --color-navy-foreground: var(--navy-foreground);
+  --color-cream: var(--background);
+  --color-brass: var(--accent);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -194,43 +157,42 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+  --radius-sm: calc(var(--radius));
+  --radius-md: calc(var(--radius) + 2px);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
   --color-success: var(--success);
   --color-warning: var(--warning);
   --color-error: var(--error);
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
+  * { @apply border-border outline-ring/50; }
   body {
     @apply bg-background text-foreground min-h-[100vh] flex flex-col;
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'kern', 'liga', 'cv11', 'ss01';
   }
-  .font-display,
-  .font-serif {
-    font-family: var(--font-serif);
-    font-feature-settings: 'liga', 'kern';
-    letter-spacing: -0.01em;
+  .font-serif, .font-display {
+    font-family: var(--font-display);
+    font-feature-settings: 'kern', 'liga', 'ss01';
+    letter-spacing: -0.015em;
+  }
+  .font-mono {
+    font-family: var(--font-sans);
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum', 'lnum';
+    letter-spacing: 0.02em;
+  }
+  .editorial-eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: var(--brand);
   }
 }
 

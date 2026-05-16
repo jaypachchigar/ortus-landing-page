@@ -15,6 +15,7 @@ import { CaseStudyShowcaseBlock } from '@/blocks/CaseStudyShowcase/Component'
 import { OfficeLocationsBlock } from '@/blocks/OfficeLocations/Component'
 import { EnquiryFormBlockComponent } from '@/blocks/EnquiryForm/Component'
 import { TeamGridBlock } from '@/blocks/TeamGrid/Component'
+import { TimelineBlock } from '@/blocks/Timeline/Component'
 
 const blockComponents = {
   archive: ArchiveBlock,
@@ -30,6 +31,7 @@ const blockComponents = {
   officeLocations: OfficeLocationsBlock,
   enquiryForm: EnquiryFormBlockComponent,
   teamGrid: TeamGridBlock,
+  timeline: TimelineBlock,
 }
 
 export const RenderBlocks: React.FC<{

@@ -7,52 +7,47 @@ export const StatsBarBlock: React.FC<Props> = ({ eyebrow, heading, stats, backgr
 
   return (
     <section
-      className={`py-20 md:py-24 ${isDark ? 'bg-navy text-navy-foreground' : 'bg-background'}`}
+      className={`py-24 md:py-32 ${isDark ? 'bg-navy text-navy-foreground' : 'bg-secondary'}`}
       data-theme={isDark ? 'dark' : undefined}
     >
       <div className="container">
         {(eyebrow || heading) && (
-          <div className="mb-12 max-w-2xl">
+          <div className="mb-16 max-w-2xl md:mb-20">
             {eyebrow && (
-              <p
-                className={`text-xs font-semibold uppercase tracking-[0.2em] ${
-                  isDark ? 'text-brand' : 'text-brand'
-                }`}
-              >
-                {eyebrow}
-              </p>
+              <p className="editorial-eyebrow">{eyebrow}</p>
             )}
             {heading && (
               <h2
-                className={`font-display mt-3 text-3xl leading-tight md:text-4xl md:leading-[1.05] ${
+                className={`font-display mt-6 text-balance text-4xl font-light leading-[1.05] md:text-5xl ${
                   isDark ? 'text-white' : 'text-foreground'
                 }`}
               >
                 {heading}
               </h2>
             )}
+            <div aria-hidden className="mt-8 h-px w-12 bg-brand" />
           </div>
         )}
 
-        <dl
-          className={`grid gap-px overflow-hidden rounded-2xl ${
-            isDark ? 'bg-white/10' : 'bg-border'
-          } md:grid-cols-${stats.length <= 3 ? stats.length : 4}`}
-        >
+        <dl className={`grid ${stats.length <= 3 ? `md:grid-cols-${stats.length}` : 'md:grid-cols-4'}`}>
           {stats.map((s, i) => (
             <div
               key={i}
-              className={`p-8 md:p-10 ${isDark ? 'bg-navy' : 'bg-card'}`}
+              className={`border-t pt-8 pb-2 md:pr-10 ${
+                isDark ? 'border-white/15' : 'border-border'
+              } ${i > 0 ? 'mt-6 md:mt-0 md:border-l md:pl-10' : ''} ${
+                i > 0 && isDark ? 'md:border-l-white/15' : ''
+              }`}
             >
               <dt
-                className={`text-sm font-medium ${
-                  isDark ? 'text-white/60' : 'text-muted-foreground'
+                className={`text-[11px] font-medium uppercase tracking-[0.2em] ${
+                  isDark ? 'text-white/55' : 'text-muted-foreground'
                 }`}
               >
                 {s.label}
               </dt>
               <dd
-                className={`font-display mt-2 text-5xl md:text-6xl ${
+                className={`font-display mt-4 text-5xl font-light leading-none md:text-6xl ${
                   isDark ? 'text-white' : 'text-foreground'
                 }`}
               >
@@ -60,8 +55,8 @@ export const StatsBarBlock: React.FC<Props> = ({ eyebrow, heading, stats, backgr
               </dd>
               {s.description && (
                 <p
-                  className={`mt-3 text-sm leading-relaxed ${
-                    isDark ? 'text-white/60' : 'text-muted-foreground'
+                  className={`mt-5 max-w-[28ch] text-sm leading-[1.7] ${
+                    isDark ? 'text-white/55' : 'text-muted-foreground'
                   }`}
                 >
                   {s.description}

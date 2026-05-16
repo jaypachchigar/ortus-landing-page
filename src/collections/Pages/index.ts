@@ -15,6 +15,7 @@ import { CaseStudyShowcase } from '../../blocks/CaseStudyShowcase/config'
 import { OfficeLocations } from '../../blocks/OfficeLocations/config'
 import { EnquiryFormBlock } from '../../blocks/EnquiryForm/config'
 import { TeamGrid } from '../../blocks/TeamGrid/config'
+import { Timeline } from '../../blocks/Timeline/config'
 import { hero } from '@/heros/config'
 import { slugField } from 'payload'
 import { populatePublishedAt } from '../../hooks/populatePublishedAt'
@@ -84,6 +85,7 @@ export const Pages: CollectionConfig<'pages'> = {
                 ProductGrid,
                 ValuesGrid,
                 StatsBar,
+                Timeline,
                 FAQAccordion,
                 CaseStudyShowcase,
                 OfficeLocations,

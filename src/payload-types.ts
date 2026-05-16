@@ -160,6 +160,9 @@ export interface Page {
   title: string;
   hero: {
     type: 'none' | 'highImpact' | 'mediumImpact' | 'lowImpact';
+    /**
+     * Deprecated — use the Eyebrow / Headline / Subheadline fields below. This field is kept only for schema compatibility.
+     */
     richText?: {
       root: {
         type: string;
@@ -175,6 +178,18 @@ export interface Page {
       };
       [k: string]: unknown;
     } | null;
+    /**
+     * Small uppercase label shown above the headline. Optional.
+     */
+    eyebrow?: string | null;
+    /**
+     * The big H1.
+     */
+    headline?: string | null;
+    /**
+     * Lead paragraph below the headline.
+     */
+    subheadline?: string | null;
     links?:
       | {
           link: {
@@ -200,7 +215,7 @@ export interface Page {
         }[]
       | null;
     /**
-     * Optional. The editorial hero looks great with or without an image.
+     * Image shown beside the headline (HighImpact) or below it (MediumImpact).
      */
     media?: (number | null) | Media;
   };
@@ -208,6 +223,7 @@ export interface Page {
     | ProductGridBlock
     | ValuesGridBlock
     | StatsBarBlock
+    | TimelineBlock
     | FAQAccordionBlock
     | CaseStudyShowcaseBlock
     | OfficeLocationsBlock
@@ -543,7 +559,14 @@ export interface ValuesGridBlock {
   subheading?: string | null;
   values?:
     | {
-        icon?: ('sparkles' | 'shield' | 'handshake' | 'mapPin' | 'lightbulb' | 'zap' | 'trending' | 'award') | null;
+        /**
+         * Lucide icon name in kebab-case, e.g. "sparkles", "shield-check", "handshake", "map-pin". Browse all icons at https://lucide.dev/icons
+         */
+        icon?: string | null;
+        /**
+         * Optional. Upload an SVG to override the Lucide icon above.
+         */
+        customIcon?: (number | null) | Media;
         title: string;
         description: string;
         id?: string | null;
@@ -572,6 +595,38 @@ export interface StatsBarBlock {
   id?: string | null;
   blockName?: string | null;
   blockType: 'statsBar';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "TimelineBlock".
+ */
+export interface TimelineBlock {
+  eyebrow?: string | null;
+  heading?: string | null;
+  subheading?: string | null;
+  background?: ('light' | 'dark') | null;
+  milestones?:
+    | {
+        /**
+         * e.g. "April 2013"
+         */
+        date: string;
+        title: string;
+        description?: string | null;
+        /**
+         * Lucide icon name in kebab-case, e.g. "flag", "building-2", "map-pin", "trending-up", "award". Browse all icons at https://lucide.dev/icons
+         */
+        icon?: string | null;
+        /**
+         * Optional. Upload an SVG to override the Lucide icon above.
+         */
+        customIcon?: (number | null) | Media;
+        id?: string | null;
+      }[]
+    | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'timeline';
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -710,6 +765,10 @@ export interface TeamGridBlock {
   subheading?: string | null;
   members?:
     | {
+        /**
+         * Headshot. Square crop works best.
+         */
+        photo?: (number | null) | Media;
         name: string;
         role: string;
         email?: string | null;
@@ -1385,6 +1444,9 @@ export interface PagesSelect<T extends boolean = true> {
     | {
         type?: T;
         richText?: T;
+        eyebrow?: T;
+        headline?: T;
+        subheadline?: T;
         links?:
           | T
           | {
@@ -1408,6 +1470,7 @@ export interface PagesSelect<T extends boolean = true> {
         productGrid?: T | ProductGridBlockSelect<T>;
         valuesGrid?: T | ValuesGridBlockSelect<T>;
         statsBar?: T | StatsBarBlockSelect<T>;
+        timeline?: T | TimelineBlockSelect<T>;
         faqAccordion?: T | FAQAccordionBlockSelect<T>;
         caseStudyShowcase?: T | CaseStudyShowcaseBlockSelect<T>;
         officeLocations?: T | OfficeLocationsBlockSelect<T>;
@@ -1459,6 +1522,7 @@ export interface ValuesGridBlockSelect<T extends boolean = true> {
     | T
     | {
         icon?: T;
+        customIcon?: T;
         title?: T;
         description?: T;
         id?: T;
@@ -1482,6 +1546,28 @@ export interface StatsBarBlockSelect<T extends boolean = true> {
         id?: T;
       };
   background?: T;
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "TimelineBlock_select".
+ */
+export interface TimelineBlockSelect<T extends boolean = true> {
+  eyebrow?: T;
+  heading?: T;
+  subheading?: T;
+  background?: T;
+  milestones?:
+    | T
+    | {
+        date?: T;
+        title?: T;
+        description?: T;
+        icon?: T;
+        customIcon?: T;
+        id?: T;
+      };
   id?: T;
   blockName?: T;
 }
@@ -1559,6 +1645,7 @@ export interface TeamGridBlockSelect<T extends boolean = true> {
   members?:
     | T
     | {
+        photo?: T;
         name?: T;
         role?: T;
         email?: T;

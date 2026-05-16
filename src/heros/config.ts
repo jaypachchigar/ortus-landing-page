@@ -19,53 +19,57 @@ export const hero: Field = {
       defaultValue: 'lowImpact',
       label: 'Type',
       options: [
-        {
-          label: 'None',
-          value: 'none',
-        },
-        {
-          label: 'High Impact',
-          value: 'highImpact',
-        },
-        {
-          label: 'Medium Impact',
-          value: 'mediumImpact',
-        },
-        {
-          label: 'Low Impact',
-          value: 'lowImpact',
-        },
+        { label: 'None', value: 'none' },
+        { label: 'High Impact', value: 'highImpact' },
+        { label: 'Medium Impact', value: 'mediumImpact' },
+        { label: 'Low Impact', value: 'lowImpact' },
       ],
       required: true,
     },
+    // Legacy field — preserved so schema-rename detection stays quiet during
+    // dev push. Not used by the renderer. Keep empty in admin.
     {
       name: 'richText',
       type: 'richText',
-      editor: lexicalEditor({
-        features: ({ rootFeatures }) => {
-          return [
-            ...rootFeatures,
-            HeadingFeature({ enabledHeadingSizes: ['h1', 'h2', 'h3', 'h4'] }),
-            FixedToolbarFeature(),
-            InlineToolbarFeature(),
-          ]
-        },
-      }),
       label: false,
-    },
-    linkGroup({
-      overrides: {
-        maxRows: 2,
+      admin: {
+        description:
+          'Deprecated — use the Eyebrow / Headline / Subheadline fields below. This field is kept only for schema compatibility.',
+        condition: () => false,
       },
-    }),
+      editor: lexicalEditor({
+        features: ({ rootFeatures }) => [
+          ...rootFeatures,
+          HeadingFeature({ enabledHeadingSizes: ['h1', 'h2', 'h3', 'h4'] }),
+          FixedToolbarFeature(),
+          InlineToolbarFeature(),
+        ],
+      }),
+    },
+    {
+      name: 'eyebrow',
+      type: 'text',
+      admin: { description: 'Small uppercase label shown above the headline. Optional.' },
+    },
+    {
+      name: 'headline',
+      type: 'text',
+      admin: { description: 'The big H1.' },
+    },
+    {
+      name: 'subheadline',
+      type: 'textarea',
+      admin: { description: 'Lead paragraph below the headline.' },
+    },
+    linkGroup({ overrides: { maxRows: 2 } }),
     {
       name: 'media',
       type: 'upload',
+      relationTo: 'media',
       admin: {
         condition: (_, { type } = {}) => ['highImpact', 'mediumImpact'].includes(type),
-        description: 'Optional. The editorial hero looks great with or without an image.',
+        description: 'Image shown beside the headline (HighImpact) or below it (MediumImpact).',
       },
-      relationTo: 'media',
     },
   ],
   label: false,

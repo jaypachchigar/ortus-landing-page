@@ -16,6 +16,12 @@ export const TeamGrid: Block = {
       admin: { initCollapsed: true },
       fields: [
         {
+          name: 'photo',
+          type: 'upload',
+          relationTo: 'media',
+          admin: { description: 'Headshot. Square crop works best.' },
+        },
+        {
           type: 'row',
           fields: [
             { name: 'name', type: 'text', required: true, admin: { width: '50%' } },

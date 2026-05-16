@@ -16,18 +16,27 @@ export const ValuesGrid: Block = {
       labels: { singular: 'Value', plural: 'Values' },
       fields: [
         {
-          name: 'icon',
-          type: 'select',
-          defaultValue: 'sparkles',
-          options: [
-            { label: 'Expertise (sparkles)', value: 'sparkles' },
-            { label: 'Reliability (shield)', value: 'shield' },
-            { label: 'Integrity (handshake)', value: 'handshake' },
-            { label: 'Local (map-pin)', value: 'mapPin' },
-            { label: 'Innovation (lightbulb)', value: 'lightbulb' },
-            { label: 'Speed (zap)', value: 'zap' },
-            { label: 'Growth (trending)', value: 'trending' },
-            { label: 'Quality (award)', value: 'award' },
+          type: 'row',
+          fields: [
+            {
+              name: 'icon',
+              type: 'text',
+              defaultValue: 'sparkles',
+              admin: {
+                width: '50%',
+                description:
+                  'Lucide icon name in kebab-case, e.g. "sparkles", "shield-check", "handshake", "map-pin". Browse all icons at https://lucide.dev/icons',
+              },
+            },
+            {
+              name: 'customIcon',
+              type: 'upload',
+              relationTo: 'media',
+              admin: {
+                width: '50%',
+                description: 'Optional. Upload an SVG to override the Lucide icon above.',
+              },
+            },
           ],
         },
         { name: 'title', type: 'text', required: true },

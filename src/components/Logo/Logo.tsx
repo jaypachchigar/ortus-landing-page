@@ -5,25 +5,32 @@ interface Props {
   className?: string
   loading?: 'lazy' | 'eager'
   priority?: 'auto' | 'high' | 'low'
+  variant?: 'default' | 'light'
 }
 
 export const Logo = (props: Props) => {
-  const { loading: loadingFromProps, priority: priorityFromProps, className } = props
-
-  const loading = loadingFromProps || 'lazy'
-  const priority = priorityFromProps || 'low'
+  const { className, variant = 'default' } = props
+  const isLight = variant === 'light'
 
   return (
-    /* eslint-disable @next/next/no-img-element */
-    <img
-      alt="Ortus Secured Finance"
-      width={200}
-      height={50}
-      loading={loading}
-      fetchPriority={priority}
-      decoding="async"
-      className={clsx('h-9 w-auto md:h-10', className)}
-      src="/ortus-logo.png"
-    />
+    <span
+      className={clsx(
+        'inline-flex items-baseline gap-3 font-display',
+        isLight ? 'text-cream' : 'text-foreground',
+        className,
+      )}
+      aria-label="Ortus Secured Finance"
+    >
+      <span className="text-2xl font-light tracking-[0.18em] md:text-[26px]">ORTUS</span>
+      <span
+        aria-hidden
+        className={clsx(
+          'hidden text-[10px] uppercase tracking-[0.28em] sm:inline',
+          isLight ? 'text-white/55' : 'text-muted-foreground',
+        )}
+      >
+        Secured Finance
+      </span>
+    </span>
   )
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 import { cn } from '@/utilities/ui'
-import { Inter, Instrument_Serif } from 'next/font/google'
+import { Inter, Fraunces } from 'next/font/google'
 import React from 'react'
 
 import { AdminBar } from '@/components/AdminBar'
@@ -17,13 +17,15 @@ import { getServerSideURL } from '@/utilities/getURL'
 
 const inter = Inter({
   subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
   variable: '--font-sans',
   display: 'swap',
 })
 
-const instrumentSerif = Instrument_Serif({
+const fraunces = Fraunces({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: 'variable',
+  axes: ['opsz'],
   variable: '--font-serif',
   display: 'swap',
 })
@@ -33,7 +35,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
   return (
     <html
-      className={cn(inter.variable, instrumentSerif.variable)}
+      className={cn(inter.variable, fraunces.variable)}
       lang="en"
       suppressHydrationWarning
     >
@@ -64,7 +66,7 @@ export const metadata: Metadata = {
     template: '%s | Ortus Secured Finance',
   },
   description:
-    'Principal lender offering residential and commercial bridging loans from £500,000 to £25 million across the UK. Fast, flexible, and reliable.',
+    'A principal lender providing residential and commercial bridging loans across the UK from £500,000 to £25 million. Decisions in hours.',
   metadataBase: new URL(getServerSideURL()),
   openGraph: mergeOpenGraph(),
   twitter: {

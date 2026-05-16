@@ -2,31 +2,34 @@ import React from 'react'
 
 import type { Page } from '@/payload-types'
 
-import RichText from '@/components/RichText'
-
 type LowImpactHeroType =
-  | {
-      children?: React.ReactNode
-      richText?: never
-    }
-  | (Omit<Page['hero'], 'richText'> & {
-      children?: never
-      richText?: Page['hero']['richText']
-    })
+  | { children?: React.ReactNode; eyebrow?: never; headline?: never; subheadline?: never }
+  | (Page['hero'] & { children?: never })
 
-export const LowImpactHero: React.FC<LowImpactHeroType> = ({ children, richText }) => {
+export const LowImpactHero: React.FC<LowImpactHeroType> = (props) => {
+  const { children } = props as { children?: React.ReactNode }
+  const { eyebrow, headline, subheadline } = props as Page['hero']
+
   return (
     <section className="border-b border-border bg-background">
-      <div className="container py-16 md:py-20">
+      <div className="container pt-20 pb-14 md:pt-28 md:pb-20">
         <div className="max-w-4xl">
-          {children ||
-            (richText && (
-              <RichText
-                className="font-display text-4xl leading-[1.05] text-foreground md:text-5xl lg:text-6xl [&>*]:!font-display [&_h1]:!font-display [&_h1]:!text-4xl md:[&_h1]:!text-5xl lg:[&_h1]:!text-6xl [&_h1]:!leading-[1.05] [&_p]:!text-lg [&_p]:!leading-relaxed [&_p]:!text-muted-foreground [&_p]:!mt-5"
-                data={richText}
-                enableGutter={false}
-              />
-            ))}
+          {children ?? (
+            <>
+              {eyebrow && <p className="editorial-eyebrow">{eyebrow}</p>}
+              {headline && (
+                <h1 className="font-display mt-7 text-balance text-4xl font-light leading-[1.05] text-foreground md:text-5xl lg:text-6xl">
+                  {headline}
+                </h1>
+              )}
+              <div aria-hidden className="mt-10 h-px w-16 bg-brand" />
+              {subheadline && (
+                <p className="mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg md:leading-[1.7]">
+                  {subheadline}
+                </p>
+              )}
+            </>
+          )}
         </div>
       </div>
     </section>

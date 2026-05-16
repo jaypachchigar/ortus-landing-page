@@ -6,9 +6,14 @@ import type { Page } from '@/payload-types'
 
 import { CMSLink } from '@/components/Link'
 import { Media } from '@/components/Media'
-import RichText from '@/components/RichText'
 
-export const HighImpactHero: React.FC<Page['hero']> = ({ links, media, richText }) => {
+export const HighImpactHero: React.FC<Page['hero']> = ({
+  links,
+  media,
+  eyebrow,
+  headline,
+  subheadline,
+}) => {
   const { setHeaderTheme } = useHeaderTheme()
 
   useEffect(() => {
@@ -17,19 +22,26 @@ export const HighImpactHero: React.FC<Page['hero']> = ({ links, media, richText 
 
   return (
     <section className="relative overflow-hidden bg-background">
-      <div className="container relative pt-16 pb-20 md:pt-24 md:pb-32 lg:pt-32 lg:pb-40">
-        <div className="grid items-end gap-12 lg:grid-cols-12 lg:gap-16">
+      <div className="container relative pt-20 pb-24 md:pt-28 md:pb-32 lg:pt-36 lg:pb-40">
+        <div className="grid items-end gap-14 lg:grid-cols-12 lg:gap-20">
           <div className="lg:col-span-7">
-            {richText && (
-              <RichText
-                className="font-display text-5xl leading-[1.02] text-foreground md:text-6xl lg:text-7xl xl:text-[5.25rem] [&>*]:!font-display [&_h1]:!text-5xl md:[&_h1]:!text-6xl lg:[&_h1]:!text-7xl xl:[&_h1]:!text-[5.25rem] [&_h1]:!leading-[1.02] [&_p]:!text-5xl md:[&_p]:!text-6xl lg:[&_p]:!text-7xl xl:[&_p]:!text-[5.25rem] [&_p]:!leading-[1.02]"
-                data={richText}
-                enableGutter={false}
-              />
+            {eyebrow && (
+              <p className="editorial-eyebrow">{eyebrow}</p>
+            )}
+            {headline && (
+              <h1 className="font-display mt-7 text-balance text-5xl font-light leading-[1.02] text-foreground md:text-6xl lg:text-7xl xl:text-[5.25rem]">
+                {headline}
+              </h1>
+            )}
+            <div aria-hidden className="mt-10 h-px w-16 bg-brand" />
+            {subheadline && (
+              <p className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg md:leading-[1.7]">
+                {subheadline}
+              </p>
             )}
 
             {Array.isArray(links) && links.length > 0 && (
-              <ul className="mt-10 flex flex-wrap items-center gap-3">
+              <ul className="mt-10 flex flex-wrap items-center gap-4">
                 {links.map(({ link }, i) => (
                   <li key={i}>
                     <CMSLink {...link} />
@@ -39,11 +51,15 @@ export const HighImpactHero: React.FC<Page['hero']> = ({ links, media, richText 
             )}
           </div>
 
-          {media && typeof media === 'object' && (
+          {media && typeof media === 'object' ? (
             <div className="lg:col-span-5">
-              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-secondary">
+              <div className="relative aspect-[4/5] overflow-hidden bg-secondary">
                 <Media fill imgClassName="object-cover" priority resource={media} />
               </div>
+            </div>
+          ) : (
+            <div className="lg:col-span-5">
+              <div className="relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-navy to-navy/80" />
             </div>
           )}
         </div>
