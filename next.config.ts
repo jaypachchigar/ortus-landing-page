@@ -18,10 +18,7 @@ const nextConfig: NextConfig = {
     loadPaths: ['./node_modules/@payloadcms/ui/dist/scss/'],
   },
   images: {
-    localPatterns: [
-      { pathname: '/api/media/file/**', search: '' },
-      { pathname: '/api/media/file/**', search: '*' },
-    ],
+    localPatterns: [{ pathname: '/api/media/file/**', search: '' }],
     qualities: [100],
     remotePatterns: [
       ...[NEXT_PUBLIC_SERVER_URL].map((item) => {
@@ -31,7 +28,6 @@ const nextConfig: NextConfig = {
           protocol: url.protocol.replace(':', '') as 'http' | 'https',
         }
       }),
-      // Vercel Blob storage host (in case media URLs resolve to absolute Blob URLs)
       { hostname: '*.public.blob.vercel-storage.com', protocol: 'https' as const },
     ],
   },
