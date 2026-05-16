@@ -17,10 +17,14 @@ export const ProductGridBlock: React.FC<Props> = async (props) => {
   if (source === 'manual' && manualProducts?.length) {
     products = manualProducts.filter((p): p is Product => typeof p === 'object' && p !== null)
   } else {
-    const where: Record<string, unknown> = {}
-    if (source === 'residential') where.category = { equals: 'residential' }
-    if (source === 'commercial') where.category = { equals: 'commercial' }
-    if (source === 'featured') where.featured = { equals: true }
+    const where =
+      source === 'residential'
+        ? { category: { equals: 'residential' } }
+        : source === 'commercial'
+          ? { category: { equals: 'commercial' } }
+          : source === 'featured'
+            ? { featured: { equals: true } }
+            : {}
 
     const result = await payload.find({
       collection: 'products',

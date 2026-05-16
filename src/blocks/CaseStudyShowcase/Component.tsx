@@ -16,17 +16,16 @@ export const CaseStudyShowcaseBlock: React.FC<Props> = async (props) => {
   if (source === 'manual' && manualItems?.length) {
     items = manualItems.filter((i): i is CaseStudy => typeof i === 'object' && i !== null)
   } else {
-    const where: Record<string, unknown> = {}
-    if (source === 'featured') where.featured = { equals: true }
     const result = await payload.find({
       collection: 'caseStudies',
-      where,
+      where: source === 'featured' ? { featured: { equals: true } } : {},
       limit: limit || 3,
       sort: '-completedAt',
       depth: 2,
     })
     items = result.docs
   }
+
 
   if (!items.length) return null
 
