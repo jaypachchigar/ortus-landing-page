@@ -8,12 +8,10 @@
  * Next.js image optimization treats them as local rather than fetching
  * through `remotePatterns`, which blocks private IPs since Next.js 16.
  */
-export const getMediaUrl = (url: string | null | undefined, cacheTag?: string | null): string => {
+export const getMediaUrl = (url: string | null | undefined, _cacheTag?: string | null): string => {
   if (!url) return ''
-
-  if (cacheTag && cacheTag !== '') {
-    cacheTag = encodeURIComponent(cacheTag)
-  }
-
-  return cacheTag ? `${url}?${cacheTag}` : url
+  // Cache-busting query strings are intentionally omitted: Next 16 image
+  // optimization rejects URLs whose query string doesn't match localPatterns,
+  // and Vercel deployments invalidate the CDN on every push anyway.
+  return url
 }
